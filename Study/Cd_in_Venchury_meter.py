@@ -1,6 +1,5 @@
 from cmath import pi, sqrt
 
-
 d1=float(input("Enter dia at entry of Ventury Meter :"))
 d2=float(input("Enter dia at exit of Ventury Meter :"))
 h1=int(input("Enter value of h1 of Marcury :"))
