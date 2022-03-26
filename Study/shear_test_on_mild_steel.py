@@ -22,4 +22,3 @@ S2=(l2*9.81/A2)
 print("Single shear stress of trial one is",S)
 print("Single shear stress of trial two is",S1)
 print("Single shear stress of trial three is",S2)
-

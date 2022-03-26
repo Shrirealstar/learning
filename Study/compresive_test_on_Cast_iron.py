@@ -1,6 +1,5 @@
 from cmath import pi
 
-
 d=float(input("Enter the dia of the job :"))
 L=float(input("Enter the length of the job :"))
 pb=float(input("Enter the max load of the job :"))

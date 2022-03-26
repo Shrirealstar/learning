@@ -19,7 +19,7 @@ n3=T3*math.sin(math.radians(sin2))/math.sin(math.radians(sin3))
 
 print('If T3 given, then the Value of T2 is :',n3)
 
-#T2 is given and wanted to find out T3
+#T2 is given and wanted to find out T3 
 n4=T2*math.sin(math.radians(sin3))/math.sin(math.radians(sin2))
 
 print('If T2 given, then the Value of T3 is :',n4)
