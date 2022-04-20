@@ -20,4 +20,4 @@ LE=30/100*lC
 print("The labour expences is :",LE)
 
 TC=CM+lC+LE
-print('Total cost is :',TC)
+print('Total cost is, rupees',TC)
