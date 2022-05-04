@@ -26,7 +26,20 @@ else:
     command = ("Of two numbers "+a+" times the smaller one is less than "+b+" times the larger one by "+c+" If the sum of the number is larger than "+d+" times their diffrence by "+e+" find the two numbers")
     print(command)
     time.sleep(1)
+    
+command4 = ("Please solve the question and enter the values...")
+print(command4)
 
+ask = float(input("What is the valve of x : "))
+if ask == "z":
+    print("Write answer...")
+
+else:
+    print("Close but not correct...")
+
+ask1 = str(input("Do you want to know thw answer? (yes/no) : "))
+
+if ask1 == "yes":
     command1 = ("Then "+b+"x - "+a+"y = "+c+"...(i)")
     print(command1)
     time.sleep(1)
@@ -42,15 +55,17 @@ else:
     sum1 = ("-"+d1+"x + "+d2+"y = "+e+"...(ii)")
     print(sum1)
     time.sleep(1)
-
     sum2 = num2*d20-d10*num1
     sum3 = num3*d20+num5*num1
     sum4 = sum3/sum2
     x = str(sum4)
+else:
+    print("Ok, Good Luck...")
+
 if sum4 < 0:
     sum4*(+1)
     command3 = ("By solving (i) & (ii) we get x = "+x)
-    print(format(command3,".2f"))
+    print((command3,".2f"))
     time.sleep(1)
 else:
     command3 = ("By solving (i) & (ii) we get x = "+x)
@@ -62,6 +77,12 @@ else:
     z = str(y)
     y = format(y,".2f")
     print("y = ",y)
+print("so, Required numbers are "+z+" and "+x)
+
+
+
+
+
 
 
 
