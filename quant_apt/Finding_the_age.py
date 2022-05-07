@@ -16,7 +16,7 @@ time.sleep(1)
 command1 = float(input("What will be the answer..? : "))
 if command1 == "z":
     print("Right answer !!!")
-
+ 
 else:
     time.sleep(1)
     print("close, but not correct...")
