@@ -1142,3 +1142,97 @@ cd .git
 ls
 git status
 /bin/python3
+cd
+cd/c
+cd
+ls
+cd learning/
+ls
+git config --global user.name "Shrirealstar"
+git config --global user.email "Shrishailashrishaila420@gmail.com"
+git clone git@github.com:Shrirealstar/learning.git
+clear
+git pull
+cd
+git pull
+git commit -am "intial release"
+gti add --all
+git add --all
+clear
+git
+git pull
+cd
+ls
+cd learning
+git pull
+clear
+cd
+ls
+cd learning
+git clone
+clear
+git clone git@github.com:Shrirealstar/learning.git
+cd
+git clone git@github.com:Shrirealstar/learning.git
+cd learning
+git status
+git add --all
+git commit -am "intial release"
+git add --all
+git commit -am "intial release"
+clear
+git status
+git push
+git commit -am "intial release"
+git git add -all
+clear
+git status
+git add --all
+got commit -am "intial release"
+git commit -am "intial release"
+git push
+git status
+git add --all
+git commit -am "intial release"
+git push
+cd path
+clear
+cd
+git status
+git add commit -am "intial release"
+git commit -am "intial release"
+git add --all
+git push
+git push --set-upstream origin master
+cd learning
+git add
+git add.
+git add
+clear
+cd
+git 
+git status
+git clone git@github.com:Shrirealstar/learning.git
+cd ls
+ls
+learning
+cd learning
+git clone git@github.com:Shrirealstar/learning.git
+git commit -am "intial release"
+git add --all
+git commit -am "intial release"
+git pull
+clear
+git pull
+git push
+clear
+git commit add all
+git pull
+ssh-keygen -R github.com
+clear
+ssh-keygen -R github.com
+clear
+git pull
+clear
+git pull
+ssh-add -1
