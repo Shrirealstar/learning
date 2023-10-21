@@ -1,0 +1,138 @@
+2023-10-18 10:24:15.404 [info] Experiment 'pythonaacf' is active
+2023-10-18 10:24:15.404 [info] Experiment 'pythonPromptNewFormatterExt' is active
+2023-10-18 10:24:15.404 [info] Experiment 'pythonPromptNewToolsExt' is active
+2023-10-18 10:24:15.404 [info] Experiment 'pythonTestAdapter' is active
+2023-10-18 10:24:15.404 [info] Test server listening.
+2023-10-18 10:24:15.404 [info] Python interpreter path: /bin/python3
+2023-10-18 10:24:15.661 [info] > conda info --json
+2023-10-18 10:24:17.838 [info] Starting Pylance language server.
+2023-10-18 10:31:35.966 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#60_Method_Overloading.py
+2023-10-18 10:31:40.502 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#60_Method_Overloading.py
+2023-10-18 10:31:57.572 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#60_Method_Overloading.py
+2023-10-18 10:31:59.604 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#60_Method_Overloading.py
+2023-10-18 10:32:12.313 [info] Send text to terminal: /bin/python3 "/home/shri123/learning/quant_apt/Telusko _Python_course/#60_Method_Overloading.py"
+2023-10-18 10:32:44.740 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#60_Method_Overloading.py
+2023-10-18 10:32:45.608 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#60_Method_Overloading.py
+2023-10-18 10:33:03.469 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#60_Method_Overloading.py
+2023-10-18 10:34:14.493 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#60_Method_Overloading.py
+2023-10-18 10:36:19.241 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#60_Method_Overloading.py
+2023-10-18 10:36:34.723 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#60_Method_Overloading.py
+2023-10-18 10:47:14.991 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#60_Method_overriding.py
+2023-10-18 10:47:16.212 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#60_Method_overriding.py
+2023-10-18 10:47:17.734 [info] Send text to terminal: /bin/python3 "/home/shri123/learning/quant_apt/Telusko _Python_course/#60_Method_overriding.py"
+2023-10-18 10:47:29.938 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#60_Method_overriding.py
+2023-10-18 10:47:40.612 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#60_Method_overriding.py
+2023-10-18 10:48:13.499 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#60_Method_overriding.py
+2023-10-18 10:48:24.403 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#60_Method_overriding.py
+2023-10-18 10:48:30.953 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#60_Method_overriding.py
+2023-10-18 10:48:36.265 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#60_Method_overriding.py
+2023-10-18 10:49:30.036 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#60_Method_overriding.py
+2023-10-18 11:40:20.599 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#61_Iterators.py
+2023-10-18 11:40:21.818 [info] Send text to terminal: /bin/python3 "/home/shri123/learning/quant_apt/Telusko _Python_course/#61_Iterators.py"
+2023-10-18 11:40:43.742 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#61_Iterators.py
+2023-10-18 11:40:45.595 [info] Send text to terminal: /bin/python3 "/home/shri123/learning/quant_apt/Telusko _Python_course/#61_Iterators.py"
+2023-10-18 11:40:57.453 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#61_Iterators.py
+2023-10-18 11:41:29.318 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#61_Iterators.py
+2023-10-18 11:41:34.060 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#61_Iterators.py
+2023-10-18 11:41:57.500 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#61_Iterators.py
+2023-10-18 11:42:38.760 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#61_Iterators.py
+2023-10-18 11:42:53.104 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#61_Iterators.py
+2023-10-18 11:43:32.332 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#61_Iterators.py
+2023-10-18 11:43:50.977 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#61_Iterators.py
+2023-10-18 11:43:58.435 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#61_Iterators.py
+2023-10-18 11:44:02.123 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#61_Iterators.py
+2023-10-18 11:47:36.750 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/divisibility_by_10.py
+2023-10-18 11:47:41.795 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/divisibility_by_10.py
+2023-10-18 11:47:47.306 [info] Send text to terminal: /bin/python3 /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/divisibility_by_10.py
+2023-10-18 11:48:27.325 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/divisibility_by_10.py
+2023-10-18 11:49:07.284 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/divisibility_by_10.py
+2023-10-18 11:49:25.062 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/divisibility_by_10.py
+2023-10-18 11:56:02.670 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisibility_of_5.py
+2023-10-18 11:56:09.746 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisibility_of_5.py
+2023-10-18 11:56:11.834 [info] Send text to terminal: /bin/python3 /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisibility_of_5.py
+2023-10-18 11:56:55.285 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisibility_of_5.py
+2023-10-18 11:57:52.209 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisibility_of_5.py
+2023-10-18 11:57:52.779 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisibility_of_5.py
+2023-10-18 11:57:54.755 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisibility_of_5.py
+2023-10-18 11:58:00.084 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisibility_of_5.py
+2023-10-18 11:58:02.383 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisibility_of_5.py
+2023-10-18 12:02:13.869 [info] Send text to terminal: /bin/python3 /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisibility_of_11.py
+2023-10-18 12:02:14.102 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisibility_of_11.py
+2023-10-18 12:06:47.122 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisibility_of_11.py
+2023-10-18 12:06:48.346 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisibility_of_11.py
+2023-10-18 12:07:22.814 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisibility_of_11.py
+2023-10-18 12:07:30.275 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisibility_of_11.py
+2023-10-18 12:10:07.712 [info] > /bin/python3 ~/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/normalizeSelection.py
+2023-10-18 12:10:07.744 [info] Send text to terminal: /bin/python3
+2023-10-18 12:10:07.905 [info] > /bin/python3 ~/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/normalizeSelection.py
+2023-10-18 12:10:08.744 [info] Send text to terminal: ask = float(int(input("which test you want to perform ? : ")))
+
+2023-10-18 12:10:08.745 [info] Send text to terminal: ask = float(int(input("which test you want to perform ? : ")))
+
+2023-10-18 12:10:53.096 [info] > /bin/python3 ~/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/normalizeSelection.py
+2023-10-18 12:10:53.119 [info] Send text to terminal: ask = float(int(input("which test you want to perform ? : ")))
+
+2023-10-18 12:12:00.385 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 12:12:02.459 [info] Send text to terminal: /bin/python3 /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 12:12:19.385 [info] Send text to terminal: /bin/python3 /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 12:12:19.621 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 12:12:45.066 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 12:12:48.084 [info] Send text to terminal: /bin/python3 /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 12:18:07.290 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 12:18:43.355 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 12:19:05.617 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 12:19:06.514 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 12:19:07.808 [info] Send text to terminal: /bin/python3 /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 12:21:49.801 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 12:22:19.072 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 12:22:20.332 [info] Send text to terminal: /bin/python3 /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 12:23:01.134 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 12:23:04.524 [info] Send text to terminal: /bin/python3 /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 12:23:14.702 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 12:23:24.218 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 12:23:26.633 [info] Send text to terminal: /bin/python3 /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 12:24:45.116 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 12:26:07.891 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 12:26:08.698 [info] Send text to terminal: /bin/python3 /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 12:26:26.617 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 12:26:27.555 [info] Send text to terminal: /bin/python3 /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 12:27:34.804 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 12:27:35.486 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 12:27:58.113 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 12:31:00.021 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 12:32:50.749 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 12:33:21.263 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 12:33:41.915 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 12:33:58.949 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 12:34:48.366 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 12:35:21.404 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 12:35:26.399 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 12:35:28.674 [info] Send text to terminal: /bin/python3 /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 12:37:14.512 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 12:37:27.642 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisibility_of_11.py
+2023-10-18 13:24:30.392 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 13:25:02.346 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 13:25:05.964 [info] Send text to terminal: /bin/python3 /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 13:26:04.692 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 13:26:06.094 [info] Send text to terminal: /bin/python3 /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 13:26:47.850 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 13:26:50.609 [info] Send text to terminal: /bin/python3 /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 13:29:30.182 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 13:29:42.724 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 13:30:58.693 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 13:33:09.066 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 13:38:20.132 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 13:39:23.358 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 13:40:33.741 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 13:41:02.138 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 13:41:45.222 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 13:41:49.392 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 13:43:46.962 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 13:43:47.945 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 13:44:08.801 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 13:46:03.295 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 13:46:04.789 [info] Send text to terminal: /bin/python3 /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 13:47:01.658 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 13:47:02.267 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 13:47:56.637 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py
+2023-10-18 13:48:14.627 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Test_Of_Divisibility.py

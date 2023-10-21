@@ -1,0 +1,21 @@
+2023-10-21 11:02:23.798 [info] 
+
+
+
+
+2023-10-21 11:02:23.860 [info] Extension host agent started.
+2023-10-21 11:02:24.146 [info] Deleted uninstalled extension from disk ms-python.vscode-pylance /home/shri123/.vscode-server/extensions/ms-python.vscode-pylance-2023.10.20
+2023-10-21 11:02:25.327 [info] [127.0.0.1][23f4ae53][ExtensionHostConnection] New connection established.
+2023-10-21 11:02:25.511 [info] [127.0.0.1][196d27db][ManagementConnection] New connection established.
+2023-10-21 11:02:29.247 [info] [127.0.0.1][23f4ae53][ExtensionHostConnection] <151> Launched Extension Host Process.
+2023-10-21 11:02:36.755 [info] Getting Manifest... ms-python.vscode-pylance
+2023-10-21 11:02:36.934 [info] Installing extension: ms-python.vscode-pylance
+2023-10-21 11:02:37.800 [info] Getting Manifest... ms-python.python
+2023-10-21 11:02:50.457 [warning] Extension signature verification failed with error 'ENOENT': ms-python.vscode-pylance
+2023-10-21 11:03:01.357 [info] Extracted extension to file:///home/shri123/.vscode-server/extensions/ms-python.vscode-pylance-2023.10.40: ms-python.vscode-pylance
+2023-10-21 11:03:01.371 [info] Renamed to /home/shri123/.vscode-server/extensions/ms-python.vscode-pylance-2023.10.40
+2023-10-21 11:03:01.378 [info] Extracting extension completed. ms-python.vscode-pylance
+2023-10-21 11:03:01.396 [info] Extension installed successfully: ms-python.vscode-pylance
+2023-10-21 11:03:01.408 [info] Marked extension as uninstalled ms-python.vscode-pylance-2023.10.30
+2023-10-21 12:29:41.887 [info] [127.0.0.1][196d27db][ManagementConnection] The client has reconnected.
+2023-10-21 12:29:41.908 [info] [127.0.0.1][23f4ae53][ExtensionHostConnection] The client has reconnected.

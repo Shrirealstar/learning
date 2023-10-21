@@ -1,0 +1,14 @@
+2023-10-17 10:44:56.104 [info] [Info  - 10:44:56 AM] (1005) Pylance language server 2023.10.20 (pyright 71ed1178) starting
+2023-10-17 10:44:56.105 [info] [Info  - 10:44:56 AM] (1005) Server root directory: /home/shri123/.vscode-server/extensions/ms-python.vscode-pylance-2023.10.20/dist
+2023-10-17 10:44:56.106 [info] [Info  - 10:44:56 AM] (1005) Starting service instance "learning"
+2023-10-17 10:44:56.176 [info] [Info  - 10:44:56 AM] (1005) Setting environmentName for service "learning": "C:\Users\Shrishaila.P\AppData\Local\Microsoft\WindowsApps\python3.9.exe"
+2023-10-17 10:44:56.178 [info] [Warn  - 10:44:56 AM] (1005) stubPath /home/shri123/learning/typings is not a valid directory.
+2023-10-17 10:44:56.258 [info] [Info  - 10:44:56 AM] (1005) Found 100 source files
+2023-10-17 10:45:18.656 [info] [Info  - 10:45:18 AM] (1005) Setting pythonPath for service "learning": "/bin/python3"
+2023-10-17 10:45:18.657 [info] [Info  - 10:45:18 AM] (1005) Setting environmentName for service "learning": "3.8.10 (global)"
+2023-10-17 10:45:18.657 [info] [Warn  - 10:45:18 AM] (1005) stubPath /home/shri123/learning/typings is not a valid directory.
+2023-10-17 10:45:18.674 [info] [Info  - 10:45:18 AM] (1005) Assuming Python version 3.8
+2023-10-17 10:45:18.722 [info] [Info  - 10:45:18 AM] (1005) Found 100 source files
+2023-10-17 12:27:09.458 [info] [Info  - 12:27:09 PM] (1005) Found 101 source files
+2023-10-17 12:28:52.908 [info] [Info  - 12:28:52 PM] (1005) Found 102 source files
+2023-10-17 13:09:41.621 [info] [Info  - 1:09:41 PM] (1005) Found 103 source files

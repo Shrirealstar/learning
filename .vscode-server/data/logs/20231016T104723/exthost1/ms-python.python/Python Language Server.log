@@ -1,0 +1,9 @@
+2023-10-16 10:47:35.050 [info] [Info  - 10:47:34 AM] (221) Pylance language server 2023.10.20 (pyright 71ed1178) starting
+2023-10-16 10:47:35.054 [info] [Info  - 10:47:35 AM] (221) Server root directory: /home/shri123/.vscode-server/extensions/ms-python.vscode-pylance-2023.10.20/dist
+2023-10-16 10:47:35.054 [info] [Info  - 10:47:35 AM] (221) Starting service instance "quant_apt"
+2023-10-16 10:47:35.167 [info] [Info  - 10:47:35 AM] (221) Setting pythonPath for service "quant_apt": "/bin/python3"
+2023-10-16 10:47:35.167 [info] [Info  - 10:47:35 AM] (221) Setting environmentName for service "quant_apt": "3.8.10 (global)"
+2023-10-16 10:47:35.174 [info] [Warn  - 10:47:35 AM] (221) stubPath /home/shri123/learning/quant_apt/typings is not a valid directory.
+2023-10-16 10:47:35.236 [info] [Info  - 10:47:35 AM] (221) Assuming Python version 3.8
+2023-10-16 10:47:35.387 [info] [Info  - 10:47:35 AM] (221) Found 70 source files
+2023-10-16 10:49:09.429 [info] [Info  - 10:49:09 AM] (221) Found 71 source files

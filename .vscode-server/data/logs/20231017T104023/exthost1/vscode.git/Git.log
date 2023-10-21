@@ -1,0 +1,27 @@
+2023-10-17 10:40:27.302 [info] Log level: Info
+2023-10-17 10:40:27.302 [info] Validating found git in: "git"
+2023-10-17 10:40:27.302 [info] Using git "2.25.1" from "git"
+2023-10-17 10:40:27.308 [info] > git rev-parse --show-toplevel [16ms]
+2023-10-17 10:40:27.331 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2023-10-17 10:40:27.359 [info] Open repository: /home/shri123/learning
+2023-10-17 10:40:27.472 [info] > git rev-parse --show-toplevel [3ms]
+2023-10-17 10:40:27.474 [info] > git config --get commit.template [89ms]
+2023-10-17 10:40:27.511 [info] > git rev-parse --show-toplevel [16ms]
+2023-10-17 10:40:27.658 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [153ms]
+2023-10-17 10:40:27.680 [info] > git rev-parse --show-toplevel [137ms]
+2023-10-17 10:40:27.698 [info] > git status -z -uall [22ms]
+2023-10-17 10:40:27.770 [info] > git config --get commit.template [5ms]
+2023-10-17 10:40:27.785 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2023-10-17 10:40:28.020 [info] > git status -z -uall [218ms]
+2023-10-17 10:40:28.564 [info] > git check-ignore -v -z --stdin [7ms]
+2023-10-17 10:40:29.070 [info] > git check-ignore -v -z --stdin [2ms]
+2023-10-17 10:40:51.737 [info] > git show --textconv :quant_apt/Telusko _Python_course/#59_Operator_Overloading.py [133ms]
+2023-10-17 10:40:51.737 [info] > git ls-files --stage -- /home/shri123/learning/quant_apt/Telusko _Python_course/#59_Operator_Overloading.py [87ms]
+2023-10-17 10:41:33.153 [info] > git check-ignore -v -z --stdin [2ms]
+2023-10-17 10:41:34.963 [info] > git config --get commit.template [1ms]
+2023-10-17 10:41:34.975 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2023-10-17 10:41:34.991 [info] > git status -z -uall [3ms]
+2023-10-17 10:41:58.609 [info] > git show --textconv :quant_apt/Telusko _Python_course/#59_Operator_Overloading.py [18ms]
+2023-10-17 10:41:58.612 [info] > git ls-files --stage -- /home/shri123/learning/quant_apt/Telusko _Python_course/#59_Operator_Overloading.py [9ms]
+2023-10-17 10:41:59.575 [info] > git show --textconv :quant_apt/Telusko _Python_course/#58_Duck_Typing.py [10ms]
+2023-10-17 10:41:59.577 [info] > git ls-files --stage -- /home/shri123/learning/quant_apt/Telusko _Python_course/#58_Duck_Typing.py [3ms]

@@ -1,0 +1,11 @@
+2023-10-17 10:22:56.502 [info] Experiment 'pythonaacf' is active
+2023-10-17 10:22:56.502 [info] Experiment 'pythonPromptNewFormatterExt' is active
+2023-10-17 10:22:56.502 [info] Experiment 'pythonPromptNewToolsExt' is active
+2023-10-17 10:22:56.502 [info] Experiment 'pythonTestAdapter' is active
+2023-10-17 10:22:56.502 [info] Test server listening.
+2023-10-17 10:22:56.860 [info] > conda info --json
+2023-10-17 10:22:57.224 [info] > /bin/python3 -I ~/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/interpreterInfo.py
+2023-10-17 10:22:57.555 [info] Python interpreter path: /bin/python3
+2023-10-17 10:22:59.483 [info] Starting Pylance language server.
+2023-10-17 10:30:32.832 [info] Discover tests for workspace name: quant_apt - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#59_Operator_Overloading.py
+2023-10-17 10:30:33.194 [info] Discover tests for workspace name: quant_apt - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#59_Operator_Overloading.py

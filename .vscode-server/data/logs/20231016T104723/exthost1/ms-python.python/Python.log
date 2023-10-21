@@ -1,0 +1,24 @@
+2023-10-16 10:47:31.812 [info] Experiment 'pythonaacf' is active
+2023-10-16 10:47:31.812 [info] Experiment 'pythonPromptNewFormatterExt' is active
+2023-10-16 10:47:31.812 [info] Experiment 'pythonPromptNewToolsExt' is active
+2023-10-16 10:47:31.812 [info] Experiment 'pythonTestAdapter' is active
+2023-10-16 10:47:31.813 [info] Test server listening.
+2023-10-16 10:47:31.813 [info] Python interpreter path: /bin/python3
+2023-10-16 10:47:33.351 [info] > conda info --json
+2023-10-16 10:47:35.125 [info] Starting Pylance language server.
+2023-10-16 11:02:44.782 [info] Discover tests for workspace name: quant_apt - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#58_Duck_Typing.py
+2023-10-16 11:04:25.632 [info] Discover tests for workspace name: quant_apt - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#58_Duck_Typing.py
+2023-10-16 11:04:26.172 [info] Discover tests for workspace name: quant_apt - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#58_Duck_Typing.py
+2023-10-16 11:04:26.879 [info] Discover tests for workspace name: quant_apt - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#58_Duck_Typing.py
+2023-10-16 11:04:27.809 [info] Discover tests for workspace name: quant_apt - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#58_Duck_Typing.py
+2023-10-16 11:04:28.066 [info] Discover tests for workspace name: quant_apt - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#58_Duck_Typing.py
+2023-10-16 11:04:29.633 [info] Discover tests for workspace name: quant_apt - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#58_Duck_Typing.py
+2023-10-16 11:04:42.929 [info] Discover tests for workspace name: quant_apt - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#58_Duck_Typing.py
+2023-10-16 11:05:08.164 [info] Discover tests for workspace name: quant_apt - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#58_Duck_Typing.py
+2023-10-16 11:05:31.631 [info] Discover tests for workspace name: quant_apt - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#58_Duck_Typing.py
+2023-10-16 11:05:32.126 [info] Discover tests for workspace name: quant_apt - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#58_Duck_Typing.py
+2023-10-16 11:05:33.109 [info] Discover tests for workspace name: quant_apt - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#58_Duck_Typing.py
+2023-10-16 11:05:33.956 [info] Discover tests for workspace name: quant_apt - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#58_Duck_Typing.py
+2023-10-16 11:06:19.127 [info] Send text to terminal: /bin/python3 "/home/shri123/learning/quant_apt/Telusko _Python_course/#58_Duck_Typing.py"
+2023-10-16 11:06:48.469 [info] Discover tests for workspace name: quant_apt - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#58_Duck_Typing.py
+2023-10-16 11:06:48.773 [info] Discover tests for workspace name: quant_apt - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#58_Duck_Typing.py

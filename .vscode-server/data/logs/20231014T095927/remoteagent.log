@@ -1,0 +1,21 @@
+2023-10-14 09:59:27.462 [info] 
+
+
+
+
+2023-10-14 09:59:27.500 [info] Extension host agent started.
+2023-10-14 09:59:27.796 [info] Deleted uninstalled extension from disk ms-python.vscode-pylance /home/shri123/.vscode-server/extensions/ms-python.vscode-pylance-2022.8.50
+2023-10-14 09:59:27.803 [info] Deleted uninstalled extension from disk ms-python.python /home/shri123/.vscode-server/extensions/ms-python.python-2022.14.0
+2023-10-14 09:59:27.804 [info] Deleted uninstalled extension from disk ms-toolsai.jupyter /home/shri123/.vscode-server/extensions/ms-toolsai.jupyter-2022.6.1201981810
+2023-10-14 09:59:27.807 [info] Deleted uninstalled extension from disk ms-toolsai.jupyter-keymap /home/shri123/.vscode-server/extensions/ms-toolsai.jupyter-keymap-1.0.0
+2023-10-14 09:59:27.808 [info] Deleted uninstalled extension from disk ms-toolsai.jupyter-renderers /home/shri123/.vscode-server/extensions/ms-toolsai.jupyter-renderers-1.0.9
+2023-10-14 09:59:27.873 [info] [127.0.0.1][9aab78de][ManagementConnection] New connection established.
+2023-10-14 09:59:28.164 [info] [127.0.0.1][93dd1101][ExtensionHostConnection] New connection established.
+2023-10-14 09:59:30.527 [info] [127.0.0.1][93dd1101][ExtensionHostConnection] <164> Launched Extension Host Process.
+2023-10-14 14:06:04.164 [info] [127.0.0.1][9aab78de][ManagementConnection] The client has reconnected.
+2023-10-14 14:06:04.832 [info] [127.0.0.1][93dd1101][ExtensionHostConnection] The client has reconnected.
+2023-10-14 14:19:37.051 [info] [127.0.0.1][9aab78de][ManagementConnection] The client has reconnected.
+2023-10-14 14:19:38.051 [info] [127.0.0.1][93dd1101][ExtensionHostConnection] The client has reconnected.
+2023-10-14 15:02:11.910 [warning] No ptyHost heartbeat after 6 seconds
+2023-10-14 15:02:20.754 [info] [127.0.0.1][93dd1101][ExtensionHostConnection] The client has reconnected.
+2023-10-14 15:02:22.865 [info] [127.0.0.1][9aab78de][ManagementConnection] The client has reconnected.

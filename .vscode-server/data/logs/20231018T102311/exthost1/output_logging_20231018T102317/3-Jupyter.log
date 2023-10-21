@@ -1,0 +1,16 @@
+Visual Studio Code (1.83.1, wsl, desktop)
+Jupyter Extension Version: 2023.9.1102792234.
+Python Extension Version: 2023.18.0.
+Platform: linux (x64).
+Workspace folder ~/learning, Home = /home/shri123
+10:24:13.721 [info] User belongs to experiment group 'NewJupyterSession'
+10:24:14.270 [info] Start refreshing Kernel Picker (1697604854270)
+10:24:14.288 [info] Using Pylance
+10:24:15.704 [warn] Failed to get activated env vars for /bin/python3 in 397ms
+10:24:15.725 [info] Process Execution: /bin/python3 -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+10:24:16.450 [info] End refreshing Kernel Picker (1697604854270)
+10:24:16.577 [info] Process Execution: /bin/python3 -m pip list
+10:24:16.635 [info] Process Execution: /bin/python3 -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+18:46:13.605 [info] Disposing HostJupyterExecution
+18:46:13.605 [info] Shutting down notebooks for 10727c2c-082e-471c-8513-349677fd52dc
+18:46:13.609 [info] Disposing HostJupyterExecution

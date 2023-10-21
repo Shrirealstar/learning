@@ -1,0 +1,134 @@
+2023-10-17 10:44:54.455 [info] Experiment 'pythonaacf' is active
+2023-10-17 10:44:54.456 [info] Experiment 'pythonPromptNewFormatterExt' is active
+2023-10-17 10:44:54.456 [info] Experiment 'pythonPromptNewToolsExt' is active
+2023-10-17 10:44:54.456 [info] Experiment 'pythonTestAdapter' is active
+2023-10-17 10:44:54.456 [info] Test server listening.
+2023-10-17 10:44:54.468 [info] > C:\Users\Shrishaila.P\AppData\Local\Microsoft\WindowsApps\python3.9.exe -c "import sys;print(sys.executable)"
+2023-10-17 10:44:54.510 [error] [Error: Command failed: C:\Users\Shrishaila.P\AppData\Local\Microsoft\WindowsApps\python3.9.exe -c "import sys;print(sys.executable)"
+/bin/sh: 1: C:UsersShrishaila.PAppDataLocalMicrosoftWindowsAppspython3.9.exe: not found
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:513:28)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:513:28)
+	at Pipe.<anonymous> (node:net:322:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'C:\\Users\\Shrishaila.P\\AppData\\Local\\Microsoft\\WindowsApps\\python3.9.exe -c "import sys;print(sys.executable)"'
+}
+2023-10-17 10:44:54.571 [info] > conda info --json
+2023-10-17 10:44:54.575 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-10-17 10:44:54.575 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-10-17 10:44:54.575 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-10-17 10:44:54.575 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-10-17 10:44:56.131 [info] Starting Pylance language server.
+2023-10-17 10:45:05.669 [info] Found: /bin/python --> /bin/python2.7
+2023-10-17 10:45:05.671 [info] Found: /bin/python2 --> /bin/python2.7
+2023-10-17 10:45:05.671 [info] Found: /bin/python2.7 --> /bin/python2.7
+2023-10-17 10:45:05.671 [info] Found: /bin/python3 --> /bin/python3.8
+2023-10-17 10:45:05.672 [info] Found: /bin/python3.8 --> /bin/python3.8
+2023-10-17 10:45:05.678 [info] Found: /usr/bin/python --> /usr/bin/python2.7
+2023-10-17 10:45:05.679 [info] Found: /usr/bin/python2 --> /usr/bin/python2.7
+2023-10-17 10:45:05.679 [info] Found: /usr/bin/python2.7 --> /usr/bin/python2.7
+2023-10-17 10:45:05.680 [info] Found: /usr/bin/python3 --> /usr/bin/python3.8
+2023-10-17 10:45:05.680 [info] Found: /usr/bin/python3.8 --> /usr/bin/python3.8
+2023-10-17 10:45:06.444 [info] > /bin/python -I ~/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/interpreterInfo.py
+2023-10-17 10:45:06.457 [warning] [Error: Command failed: /bin/python -I /home/shri123/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/get_output_via_markers.py /home/shri123/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/interpreterInfo.py
+Unknown option: -I
+usage: /bin/python [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:513:28)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:513:28)
+	at Pipe.<anonymous> (node:net:322:12)] {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/bin/python -I /home/shri123/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/get_output_via_markers.py /home/shri123/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/interpreterInfo.py'
+}
+2023-10-17 10:45:06.457 [error] Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+2023-10-17 10:45:06.464 [info] > /bin/python ~/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/interpreterInfo.py
+2023-10-17 10:45:06.531 [info] > /bin/python3 -I ~/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/interpreterInfo.py
+2023-10-17 10:45:06.741 [info] > /usr/bin/python -I ~/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/interpreterInfo.py
+2023-10-17 10:45:06.760 [warning] [Error: Command failed: /usr/bin/python -I /home/shri123/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/get_output_via_markers.py /home/shri123/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/interpreterInfo.py
+Unknown option: -I
+usage: /usr/bin/python [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:513:28)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:513:28)
+	at Pipe.<anonymous> (node:net:322:12)] {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/usr/bin/python -I /home/shri123/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/get_output_via_markers.py /home/shri123/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/interpreterInfo.py'
+}
+2023-10-17 10:45:06.760 [error] Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+2023-10-17 10:45:06.769 [info] > /usr/bin/python ~/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/interpreterInfo.py
+2023-10-17 10:45:06.927 [info] > /usr/bin/python3 -I ~/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/interpreterInfo.py
+2023-10-17 10:45:07.115 [warning] Retry failed, storage update failed for key PYTHON_ENV_INFO_CACHE
+2023-10-17 10:45:18.572 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning
+2023-10-17 10:45:18.573 [info] Python interpreter path: /bin/python3
+2023-10-17 10:45:27.192 [info] Send text to terminal: /bin/python3 "/home/shri123/learning/quant_apt/Telusko _Python_course/#59_Operator_Overloading.py"
+2023-10-17 10:45:45.309 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#59_Operator_Overloading.py
+2023-10-17 10:45:46.621 [info] Send text to terminal: /bin/python3 "/home/shri123/learning/quant_apt/Telusko _Python_course/#59_Operator_Overloading.py"
+2023-10-17 10:46:18.980 [info] Send text to terminal: /bin/python3 "/home/shri123/learning/quant_apt/Telusko _Python_course/#59_Operator_Overloading.py"
+2023-10-17 10:48:12.053 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#59_Operator_Overloading.py
+2023-10-17 10:49:15.216 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#59_Operator_Overloading.py
+2023-10-17 10:50:41.340 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#59_Operator_Overloading.py
+2023-10-17 10:50:42.016 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#59_Operator_Overloading.py
+2023-10-17 10:50:42.782 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#59_Operator_Overloading.py
+2023-10-17 10:51:11.178 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#59_Operator_Overloading.py
+2023-10-17 10:51:35.970 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#59_Operator_Overloading.py
+2023-10-17 12:18:21.929 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#59_Operator_Overloading.py
+2023-10-17 12:18:23.777 [info] Send text to terminal: /bin/python3 "/home/shri123/learning/quant_apt/Telusko _Python_course/#59_Operator_Overloading.py"
+2023-10-17 12:18:39.524 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#59_Operator_Overloading.py
+2023-10-17 12:18:41.743 [info] Send text to terminal: /bin/python3 "/home/shri123/learning/quant_apt/Telusko _Python_course/#59_Operator_Overloading.py"
+2023-10-17 12:18:47.712 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#59_Operator_Overloading.py
+2023-10-17 12:18:50.835 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#59_Operator_Overloading.py
+2023-10-17 12:18:51.811 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#59_Operator_Overloading.py
+2023-10-17 12:21:07.139 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#59_Operator_Overloading.py
+2023-10-17 12:22:41.672 [info] Send text to terminal: /bin/python3 /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisibility_by_9.py
+2023-10-17 12:24:46.047 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisibility_by_9.py
+2023-10-17 12:25:16.040 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisibility_by_9.py
+2023-10-17 12:26:22.015 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisibility_by_9.py
+2023-10-17 12:26:55.126 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisibility_by_9.py
+2023-10-17 12:27:26.389 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisibility_by_3.py
+2023-10-17 12:27:27.160 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisibility_by_3.py
+2023-10-17 12:27:28.468 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisibility_by_3.py
+2023-10-17 12:29:10.063 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisible_by_4.py
+2023-10-17 12:29:46.724 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisible_by_4.py
+2023-10-17 12:30:00.375 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisible_by_4.py
+2023-10-17 12:30:01.663 [info] Send text to terminal: /bin/python3 /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisible_by_4.py
+2023-10-17 12:32:04.791 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisible_by_4.py
+2023-10-17 12:32:05.967 [info] Send text to terminal: /bin/python3 /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisible_by_4.py
+2023-10-17 12:32:37.683 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisible_by_4.py
+2023-10-17 12:32:40.645 [info] Send text to terminal: /bin/python3 /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisible_by_4.py
+2023-10-17 12:44:56.739 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Find_place_of_a_number.py
+2023-10-17 12:48:43.985 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisible_by_4.py
+2023-10-17 12:48:46.431 [info] Send text to terminal: /bin/python3 /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisible_by_4.py
+2023-10-17 12:50:31.384 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisible_by_4.py
+2023-10-17 12:50:32.429 [info] Send text to terminal: /bin/python3 /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisible_by_4.py
+2023-10-17 13:03:47.104 [info] Send text to terminal: /bin/python3 /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisible_by_4.py
+2023-10-17 13:05:28.864 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisible_by_4.py
+2023-10-17 13:10:03.407 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisibility_by_8.py
+2023-10-17 13:10:14.231 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisibility_by_8.py
+2023-10-17 13:10:54.247 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisibility_by_8.py
+2023-10-17 13:11:11.865 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisibility_by_8.py
+2023-10-17 13:13:41.060 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisibility_by_8.py
+2023-10-17 13:14:12.998 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisibility_by_8.py
+2023-10-17 13:14:22.788 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisibility_by_8.py
+2023-10-17 13:26:54.159 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisibility_by_8.py
+2023-10-17 13:29:03.385 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisibility_by_8.py
+2023-10-17 13:29:58.089 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisibility_by_8.py
+2023-10-17 13:30:30.253 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisibility_by_8.py
+2023-10-17 13:42:09.626 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisibility_by_3.py
+2023-10-17 13:42:10.183 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Quant_APT/Chapter_1_numbers/Divisibility_by_3.py

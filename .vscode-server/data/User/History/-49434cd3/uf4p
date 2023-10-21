@@ -1,0 +1,17 @@
+from tkinter import Y
+
+
+n = int(input("Enter a number : "))
+for i in range(1,22):
+    x=n*i
+
+total = 0
+ele = 0
+list1 = [x]
+while(ele < len(list1)):
+	total = total + list1[ele]
+	ele += 1
+
+z=total/2
+print(z)
+
