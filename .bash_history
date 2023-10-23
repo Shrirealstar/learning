@@ -1330,3 +1330,54 @@ git push
 git push Shrirealstar
 git push --set-upstream Shrirealstar master
 clear
+/bin/python3 "/home/shri123/learning/quant_apt/Telusko _Python_course/#69_binary_search.py"
+git status
+git commit -a "intial release"
+git commit -a 
+git add --all
+git commit -am "intial release"
+git push
+git config --global credential.helper store
+git push origin main
+clear
+git pull
+cd
+ls
+learning
+cd learning
+ls
+clear
+.........
+.
+...
+..
+.
+.....................
+clear
+code .
+git add --all
+git commit -am "intial release"
+clear
+git code .
+clear
+cd
+ls
+cd learning
+code .
+git commit -am "intial release"
+git add --all
+git push
+git status
+git push
+git 
+git pull
+cd
+ls
+learning
+cd learning
+ls
+git commit -am "intial release"
+git push
+ls
+git
+/bin/python3 "/home/shri123/learning/quant_apt/Telusko _Python_course/#69_binary_search.py"
