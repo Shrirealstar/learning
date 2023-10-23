@@ -1265,3 +1265,68 @@ git status
 git push
 /bin/python3 "/home/shri123/learning/quant_apt/Telusko _Python_course/#64_MuliThreading.py"
 /bin/python3 "/home/shri123/learning/quant_apt/Telusko _Python_course/#67_Liner_search.py"
+cd
+ls
+leaning
+cd learning
+git pull
+git commit -am 
+git commit -am "intial release"
+git add  quant_apt/Telusko _Python_course/#67_Liner_search.py
+git add
+git add.
+git add .
+/home/shri123/learning/quant_apt/Telusko _Python_course/#69_binary_search.py
+#69_binary_search.py
+git add .
+#69_binary_search.py
+git push
+clear
+git status
+git remote add origin https://github.com/Shrirealstar/Shrirealstar.git
+git Shrirealstar
+git pull Shrirealstar
+cd
+ls
+learning
+cd learning
+git pull
+git pull learning
+cd.
+git pull learning
+cd
+git pull learning
+git pull learning *branch
+git pull
+git branch --set-upstream-to=origin/master
+clear
+cd
+ls
+learning
+cd learning
+git init
+git add .
+git commit -m "intial release"
+git remote add origin https://github.com/Shrirealstar/learning.git
+git push origin main
+git remote add origin https://github.com/<Shrirealstar>/<learning>.git
+ls
+cd quant_apt
+git init
+git add .
+git commit -am "intial release"
+git add --all
+git push
+git add --all https://github.com/Shrirealstar/learning.git
+git add learning
+git add #69_binary_search.py
+git add .#69_binary_search.py
+git add .#69_binary_search
+clear
+git status
+git commit -am "intial release"
+git add --all
+git push
+git push Shrirealstar
+git push --set-upstream Shrirealstar master
+clear
