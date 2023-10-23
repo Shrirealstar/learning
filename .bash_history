@@ -1236,3 +1236,32 @@ git pull
 clear
 git pull
 ssh-add -1
+git status
+git commit -a "intial release"
+git commit -am "intial release"
+git add --all
+git push
+git push --set-upstream origin master
+git push origin master
+clear
+git
+git pull
+git pull git@github.com:Shrirealstar/learning.git
+cd
+ls
+cd learning
+git pull
+ssh-keygen -t rsa -b 4096 -C "Shrishailashrishaila420@gmail.com"
+git pull
+git pull git@github.com:Shrirealstar/learning.git
+clear
+git clone git@github.com:Shrirealstar/learning.git
+git clone git@github.com:Shrirealstar/Shrirealstar.git
+cd
+ls
+learning
+cd learning
+git status
+git push
+/bin/python3 "/home/shri123/learning/quant_apt/Telusko _Python_course/#64_MuliThreading.py"
+/bin/python3 "/home/shri123/learning/quant_apt/Telusko _Python_course/#67_Liner_search.py"

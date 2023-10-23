@@ -21,3 +21,26 @@
 2023-10-21 12:29:41.908 [info] [127.0.0.1][23f4ae53][ExtensionHostConnection] The client has reconnected.
 2023-10-21 13:39:37.970 [info] [127.0.0.1][23f4ae53][ExtensionHostConnection] The client has reconnected.
 2023-10-21 13:39:38.738 [info] [127.0.0.1][196d27db][ManagementConnection] The client has reconnected.
+2023-10-21 14:15:26.703 [warning] No ptyHost heartbeat after 6 seconds
+2023-10-21 14:15:28.861 [info] [127.0.0.1][23f4ae53][ExtensionHostConnection] The client has reconnected.
+2023-10-21 14:15:29.221 [info] [127.0.0.1][196d27db][ManagementConnection] The client has reconnected.
+2023-10-21 14:50:53.901 [info] [127.0.0.1][196d27db][ManagementConnection] The client has reconnected.
+2023-10-21 14:50:54.125 [info] [127.0.0.1][23f4ae53][ExtensionHostConnection] The client has reconnected.
+2023-10-21 14:56:05.856 [info] [127.0.0.1][23f4ae53][ExtensionHostConnection] The client has reconnected.
+2023-10-21 14:56:06.499 [info] [127.0.0.1][196d27db][ManagementConnection] The client has reconnected.
+2023-10-21 15:01:18.165 [info] [127.0.0.1][196d27db][ManagementConnection] The client has reconnected.
+2023-10-21 15:01:18.498 [info] [127.0.0.1][23f4ae53][ExtensionHostConnection] The client has reconnected.
+2023-10-21 15:29:21.457 [info] [127.0.0.1][196d27db][ManagementConnection] The client has reconnected.
+2023-10-21 15:29:22.436 [info] [127.0.0.1][23f4ae53][ExtensionHostConnection] The client has reconnected.
+2023-10-21 15:46:24.493 [info] [127.0.0.1][196d27db][ManagementConnection] The client has reconnected.
+2023-10-21 15:46:24.765 [info] [127.0.0.1][23f4ae53][ExtensionHostConnection] The client has reconnected.
+2023-10-21 15:49:36.652 [info] [127.0.0.1][23f4ae53][ExtensionHostConnection] The client has reconnected.
+2023-10-21 15:49:37.502 [info] [127.0.0.1][196d27db][ManagementConnection] The client has reconnected.
+2023-10-21 15:53:22.350 [info] [127.0.0.1][196d27db][ManagementConnection] The client has reconnected.
+2023-10-21 15:53:22.691 [info] [127.0.0.1][23f4ae53][ExtensionHostConnection] The client has reconnected.
+2023-10-21 15:58:02.006 [info] [127.0.0.1][23f4ae53][ExtensionHostConnection] The client has reconnected.
+2023-10-21 15:58:02.126 [info] [127.0.0.1][196d27db][ManagementConnection] The client has reconnected.
+2023-10-21 16:05:35.743 [info] [127.0.0.1][196d27db][ManagementConnection] The client has reconnected.
+2023-10-21 16:05:36.032 [info] [127.0.0.1][23f4ae53][ExtensionHostConnection] The client has reconnected.
+2023-10-21 16:55:24.948 [info] [127.0.0.1][196d27db][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-10-21 16:55:25.693 [info] [127.0.0.1][23f4ae53][ExtensionHostConnection] <151> Extension Host Process exited with code: 0, signal: null.

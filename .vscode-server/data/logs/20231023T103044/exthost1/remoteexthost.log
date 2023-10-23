@@ -1,26 +1,22 @@
-2023-10-21 11:02:30.594 [info] Extension host with pid 151 started
-2023-10-21 11:02:30.605 [error] Error: EEXIST: file already exists, open '/home/shri123/.vscode-server/data/User/workspaceStorage/d72d7b171893e88be04377fe9f342063/vscode.lock'
-2023-10-21 11:02:30.626 [info] Lock '/home/shri123/.vscode-server/data/User/workspaceStorage/d72d7b171893e88be04377fe9f342063/vscode.lock': Could not acquire lock, checking if the file is stale.
-2023-10-21 11:02:30.633 [info] Lock '/home/shri123/.vscode-server/data/User/workspaceStorage/d72d7b171893e88be04377fe9f342063/vscode.lock': The pid 304 appears to be gone.
-2023-10-21 11:02:30.633 [info] Lock '/home/shri123/.vscode-server/data/User/workspaceStorage/d72d7b171893e88be04377fe9f342063/vscode.lock': Deleting a stale lock.
-2023-10-21 11:02:30.686 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
-2023-10-21 11:02:30.734 [info] Lock '/home/shri123/.vscode-server/data/User/workspaceStorage/d72d7b171893e88be04377fe9f342063/vscode.lock': Lock acquired.
-2023-10-21 11:02:30.789 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
-2023-10-21 11:02:30.916 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
-2023-10-21 11:02:30.917 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
-2023-10-21 11:02:31.540 [info] Eager extensions activated
-2023-10-21 11:02:31.541 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
-2023-10-21 11:02:31.542 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
-2023-10-21 11:02:32.263 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
-2023-10-21 11:02:32.264 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
-2023-10-21 11:02:32.264 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
-2023-10-21 11:06:17.964 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
-2023-10-21 11:06:17.965 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
-2023-10-21 11:06:19.779 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
-2023-10-21 11:06:20.035 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
-2023-10-21 16:55:24.907 [info] Extension host terminating: received terminate message from renderer
-2023-10-21 16:55:24.914 [info] Lock '/home/shri123/.vscode-server/data/User/workspaceStorage/d72d7b171893e88be04377fe9f342063/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
-2023-10-21 16:55:25.471 [error] Canceled: Canceled
+2023-10-23 10:30:47.702 [info] Extension host with pid 144 started
+2023-10-23 10:30:47.789 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2023-10-23 10:30:47.848 [info] Lock '/home/shri123/.vscode-server/data/User/workspaceStorage/d72d7b171893e88be04377fe9f342063/vscode.lock': Lock acquired.
+2023-10-23 10:30:48.014 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-10-23 10:30:48.118 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-10-23 10:30:48.118 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-10-23 10:30:49.269 [info] Eager extensions activated
+2023-10-23 10:30:49.271 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-10-23 10:30:49.271 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-10-23 10:30:49.558 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-10-23 10:30:49.558 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-10-23 10:30:49.559 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-10-23 10:31:14.224 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2023-10-23 10:31:14.224 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2023-10-23 10:31:15.175 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2023-10-23 10:31:15.345 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2023-10-23 10:46:13.441 [info] Extension host terminating: received terminate message from renderer
+2023-10-23 10:46:13.442 [info] Lock '/home/shri123/.vscode-server/data/User/workspaceStorage/d72d7b171893e88be04377fe9f342063/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-10-23 10:46:13.851 [error] Canceled: Canceled
 	at new m (/home/shri123/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:126:57216)
 	at i.U (/home/shri123/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:135:10864)
 	at M.<computed>.j.charCodeAt.M.<computed> (/home/shri123/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:135:8315)
@@ -56,7 +52,7 @@
 	at c.fire (/home/shri123/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
 	at g.fire (/home/shri123/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:96:14010)
 	at r.z (/home/shri123/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:96:17075)
-	at s.value (/home/shri123/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:96:16480)
+	at s.value (/home/shri123/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:96:15527)
 	at c.z (/home/shri123/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
 	at c.fire (/home/shri123/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
 	at s.acceptChunk (/home/shri123/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:96:11784)
@@ -73,7 +69,7 @@
 	at readableAddChunk (node:internal/streams/readable:297:9)
 	at Readable.push (node:internal/streams/readable:234:10)
 	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
-2023-10-21 16:55:25.474 [error] Canceled: Canceled
+2023-10-23 10:46:13.852 [error] Canceled: Canceled
 	at new m (/home/shri123/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:126:57216)
 	at i.U (/home/shri123/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:135:10864)
 	at M.<computed>.j.charCodeAt.M.<computed> (/home/shri123/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:135:8315)
@@ -111,7 +107,7 @@
 	at c.fire (/home/shri123/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
 	at g.fire (/home/shri123/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:96:14010)
 	at r.z (/home/shri123/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:96:17075)
-	at s.value (/home/shri123/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:96:16480)
+	at s.value (/home/shri123/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:96:15527)
 	at c.z (/home/shri123/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
 	at c.fire (/home/shri123/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
 	at s.acceptChunk (/home/shri123/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:96:11784)
@@ -128,4 +124,4 @@
 	at readableAddChunk (node:internal/streams/readable:297:9)
 	at Readable.push (node:internal/streams/readable:234:10)
 	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
-2023-10-21 16:55:25.619 [info] Extension host with pid 151 exiting with code 0
+2023-10-23 10:46:13.928 [info] Extension host with pid 144 exiting with code 0
