@@ -1,0 +1,22 @@
+#Finding the Tmean(troque) value from the given data
+
+import time
+
+n = int(input("Enter the Speed of the shaft : "))
+P = int(input("Enter the Power of the shaft : "))
+s = int(input("Enter the stress value : "))
+
+print("The entired values are as follow : ")
+print(n,"RPM")
+time.sleep(1)
+print(P,"Kilo Watt")
+time.sleep(1)
+print(s,"MPa")
+time.sleep(1)
+
+#logic for the code
+
+a = 9.55*10**6
+b = a*P
+c = b/n
+print("The troque of the shaft is : ",c)
