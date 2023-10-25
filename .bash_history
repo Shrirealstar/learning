@@ -1381,3 +1381,143 @@ git push
 ls
 git
 /bin/python3 "/home/shri123/learning/quant_apt/Telusko _Python_course/#69_binary_search.py"
+git
+git pull
+git init
+git l=pull
+git pull
+git commit -am "intial release"
+git add --all
+git push
+clear
+;
+clear
+git --help
+sudo apt update
+sudo password
+clear
+sudo password Shrirealstar
+clear
+sudo apt
+sudo
+sudo reset
+sudo passwd
+cd
+ls
+learning
+sudo apt update
+sudo apt install python3 idle3
+clear
+cd
+ls
+cd learning
+git status
+git pull
+git commit -am "intial release"
+git add --all
+git push
+clear
+git init
+git status
+git push
+git commit -m ""
+clear
+cd
+ls
+ls -al
+git pull origin master
+git remote -v
+git pull origin master --allow-unrelated-histories
+clear
+cd
+ls
+cd learning
+ls -al
+git pull origin master
+cd
+
+ls -al
+git pull origin master
+git remote -v
+git pull  https://github.com/Shrirealstar/learning.git master
+git branch
+git pull origin master
+clear
+git pull
+git remote -v
+git pull origin master --allow-unrelated-histories
+ok
+clear
+/bin/python3 "/home/shri123/learning/quant_apt/Telusko _Python_course/#67_Liner_search.py"
+/bin/python3 "/home/shri123/learning/quant_apt/Telusko _Python_course/#69_binary_search.py"
+/bin/python3 "/home/shri123/learning/quant_apt/Telusko _Python_course/#70_Bubble_sort.py"
+/bin/python3 "/home/shri123/learning/quant_apt/Telusko _Python_course/#71_Selction_sort.py"
+/bin/python3 "/home/shri123/learning/quant_apt/Telusko _Python_course/#70_Bubble_sort.py"
+git 
+git pull
+cd
+ls
+learning
+cd learning
+git code .
+gi.code
+git code.
+git.code
+clear
+git code.
+git code  .
+git code .
+clear
+code .
+git add .
+git commit -m "intial release"
+git push origin master
+git add --all
+git push
+git orinin master
+git push origin master
+clear
+git clone https://github.com/Shrirealstar/learning.git
+git clone git@github.com:Shrirealstar/learning.git
+ls
+cd quant_apt
+ls
+cd 'Telusko _Python_course'
+ls
+clear
+cd
+ls
+learning
+cd learning
+git pull
+clear
+git clone git@github.com:Shrirealstar/learning.git
+clear
+cd
+git clone git@github.com:Shrirealstar/learning.git
+clear
+ls
+learning
+cd learnin
+cd learning
+git pull
+cd
+ls
+learning
+cd learning
+git status
+git add .
+git add learning
+git commit -am "intial release"
+git add --all
+git push
+clear
+cd 
+ls
+cd learning
+ssh -vT git@github.com
+OpenSSH_8.1p1, LibreSSL 2.7.3
+ssh -T -p 443 git@ssh.github.com
+clear
+ssh -T GITHUB-shrirealstar@github.com
+ssh -T git@github.com

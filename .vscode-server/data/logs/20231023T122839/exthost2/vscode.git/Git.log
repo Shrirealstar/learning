@@ -1,0 +1,41 @@
+2023-10-23 12:28:50.983 [info] Log level: Info
+2023-10-23 12:28:50.983 [info] Validating found git in: "git"
+2023-10-23 12:28:50.983 [info] Using git "2.25.1" from "git"
+2023-10-23 12:28:50.983 [info] > git rev-parse --show-toplevel [6ms]
+2023-10-23 12:28:50.983 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2023-10-23 12:28:50.983 [info] Open repository: /home/shri123/learning
+2023-10-23 12:28:50.983 [info] > git rev-parse --show-toplevel [3ms]
+2023-10-23 12:28:50.983 [info] > git config --get commit.template [11ms]
+2023-10-23 12:28:51.040 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [44ms]
+2023-10-23 12:28:51.048 [info] > git rev-parse --show-toplevel [59ms]
+2023-10-23 12:28:51.071 [info] > git status -z -uall [25ms]
+2023-10-23 12:28:51.093 [info] > git rev-parse --show-toplevel [23ms]
+2023-10-23 12:28:51.100 [info] > git config --get commit.template [8ms]
+2023-10-23 12:28:51.102 [info] > git rev-parse --show-toplevel [2ms]
+2023-10-23 12:28:51.108 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-23 12:28:51.118 [info] > git status -z -uall [6ms]
+2023-10-23 12:28:51.133 [info] > git rev-parse --git-dir --git-common-dir [16ms]
+2023-10-23 12:28:51.139 [info] Open repository: /home/shri123/learning/quant_apt
+2023-10-23 12:28:51.160 [info] > git config --get commit.template [2ms]
+2023-10-23 12:28:51.166 [info] No remotes found in the git config file.
+2023-10-23 12:28:51.167 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-23 12:28:51.176 [info] > git status -z -uall [3ms]
+2023-10-23 12:28:51.192 [info] > git config --get commit.template [2ms]
+2023-10-23 12:28:51.198 [info] No remotes found in the git config file.
+2023-10-23 12:28:51.199 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-23 12:28:51.208 [info] > git status -z -uall [3ms]
+2023-10-23 12:28:51.756 [info] > git check-ignore -v -z --stdin [10ms]
+2023-10-23 12:28:51.758 [info] > git check-ignore -v -z --stdin [3ms]
+2023-10-23 12:28:52.436 [info] > git check-ignore -v -z --stdin [5ms]
+2023-10-23 12:28:52.436 [info] > git check-ignore -v -z --stdin [1ms]
+2023-10-23 12:28:55.141 [info] > git check-ignore -v -z --stdin [580ms]
+2023-10-23 12:28:55.237 [info] > git show --textconv :Telusko _Python_course/#69_binary_search.py [66ms]
+2023-10-23 12:28:55.238 [info] > git ls-files --stage -- /home/shri123/learning/quant_apt/Telusko _Python_course/#69_binary_search.py [56ms]
+2023-10-23 12:28:55.819 [info] > git cat-file -s d1e56379c994bd82be6d22f5a60e650dd52729a2 [574ms]
+2023-10-23 12:28:55.871 [info] > git check-ignore -v -z --stdin [41ms]
+2023-10-23 15:42:03.737 [info] > git config --get commit.template [59ms]
+2023-10-23 15:42:03.765 [info] > git ls-files --stage -- /home/shri123/learning/quant_apt/Telusko _Python_course/#69_binary_search.py [47ms]
+2023-10-23 15:42:03.804 [info] > git cat-file -s d1e56379c994bd82be6d22f5a60e650dd52729a2 [31ms]
+2023-10-23 15:42:03.806 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [18ms]
+2023-10-23 15:42:03.840 [info] > git status -z -uall [19ms]
+2023-10-23 15:42:03.858 [info] > git show --textconv :Telusko _Python_course/#69_binary_search.py [20ms]

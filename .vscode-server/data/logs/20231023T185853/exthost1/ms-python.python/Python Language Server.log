@@ -1,0 +1,7 @@
+2023-10-23 18:59:01.769 [info] [Info  - 6:59:01 PM] (1098) Pylance language server 2023.10.40 (pyright 088ebaa5) starting
+2023-10-23 18:59:01.772 [info] [Info  - 6:59:01 PM] (1098) Server root directory: /home/shri123/.vscode-server/extensions/ms-python.vscode-pylance-2023.10.40/dist
+2023-10-23 18:59:01.772 [info] [Info  - 6:59:01 PM] (1098) Starting service instance "learning"
+2023-10-23 18:59:01.836 [info] [Info  - 6:59:01 PM] (1098) Setting pythonPath for service "learning": "/bin/python3"
+2023-10-23 18:59:01.836 [info] [Info  - 6:59:01 PM] (1098) Setting environmentName for service "learning": "3.8.10 (global)"
+2023-10-23 18:59:01.882 [info] [Info  - 6:59:01 PM] (1098) Assuming Python version 3.8
+2023-10-23 18:59:02.017 [info] [Info  - 6:59:02 PM] (1098) Found 114 source files
