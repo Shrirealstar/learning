@@ -1521,3 +1521,83 @@ ssh -T -p 443 git@ssh.github.com
 clear
 ssh -T GITHUB-shrirealstar@github.com
 ssh -T git@github.com
+/bin/python3 "/home/shri123/learning/quant_apt/Telusko _Python_course/#71_Selction_sort.py"
+/bin/python3 "/home/shri123/learning/quant_apt/Telusko _Python_course/#69_binary_search.py"
+cd
+ls
+cd learning
+git add learning
+git pull
+git pull origin master
+git add learning
+git add --all
+git push
+clear
+git 
+cd
+ls
+cd
+ls
+git add .
+cd
+git add .
+git commit -m "intial release"
+git push
+clear
+ls
+learning
+cd learning
+add .
+clear
+git add .
+git commit -m "intial release"
+git push origin
+clear
+git add .
+git commit -m "intial release"
+git push
+git clone https://github.com/Shrirealstar/learning.git
+git clone git@github.com:Shrirealstar/learning.git
+clear
+cd 
+git add .
+git commit -m "intial release"
+git oush origin
+git push origin
+clear
+git pull
+clear
+cd
+ls
+git pull
+git pull origin master
+git pull origin master --allow-unrelated-histories
+git add --all
+got commit -m "intial release"
+git commit -m "intial release"
+git push -u origin master
+cd
+ls
+cd learning
+git pull
+git add .
+git commit -m "intial relese"
+git add --all
+git push
+clear
+ls
+git clone https://github.com/Shrirealstar/Shrirealstar.git
+clear
+ls
+git clone https://github.com/Shrirealstar/learning.git
+git pull origin 
+git pull
+git pull origin main
+git add .
+clear
+git commit -m "intial release"
+git add --all
+git push
+clear
+git clone https://github.com/Shrirealstar/learning.git
+git pull
