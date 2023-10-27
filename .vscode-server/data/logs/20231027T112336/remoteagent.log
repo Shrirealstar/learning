@@ -1,0 +1,19 @@
+2023-10-27 11:23:36.816 [info] 
+
+
+
+
+2023-10-27 11:23:36.855 [info] Extension host agent started.
+2023-10-27 11:23:37.249 [info] [127.0.0.1][28d69cdb][ManagementConnection] New connection established.
+2023-10-27 11:23:37.681 [info] [127.0.0.1][98b3545b][ExtensionHostConnection] New connection established.
+2023-10-27 11:23:37.772 [info] [127.0.0.1][98b3545b][ExtensionHostConnection] <338> Launched Extension Host Process.
+2023-10-27 11:23:48.043 [info] Getting Manifest... ms-python.vscode-pylance
+2023-10-27 11:23:48.534 [info] Installing extension: ms-python.vscode-pylance
+2023-10-27 11:23:49.929 [info] Getting Manifest... ms-python.python
+2023-10-27 11:24:08.290 [warning] Extension signature verification failed with error 'ENOENT': ms-python.vscode-pylance
+2023-10-27 11:24:24.261 [info] Extracted extension to file:///home/shri123/.vscode-server/extensions/ms-python.vscode-pylance-2023.10.50: ms-python.vscode-pylance
+2023-10-27 11:24:24.278 [info] Renamed to /home/shri123/.vscode-server/extensions/ms-python.vscode-pylance-2023.10.50
+2023-10-27 11:24:24.283 [info] Extracting extension completed. ms-python.vscode-pylance
+2023-10-27 11:24:24.298 [info] Extension installed successfully: ms-python.vscode-pylance
+2023-10-27 11:24:24.308 [info] Marked extension as uninstalled ms-python.vscode-pylance-2023.10.40
+2023-10-27 11:46:28.044 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
