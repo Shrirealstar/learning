@@ -1,0 +1,12 @@
+2023-10-23 12:24:28.035 [info] Experiment 'pythonaacf' is active
+2023-10-23 12:24:28.035 [info] Experiment 'pythonPromptNewFormatterExt' is active
+2023-10-23 12:24:28.035 [info] Experiment 'pythonPromptNewToolsExt' is active
+2023-10-23 12:24:28.035 [info] Experiment 'pythonTestAdapter' is active
+2023-10-23 12:24:28.035 [info] Test server listening.
+2023-10-23 12:24:28.393 [info] > conda info --json
+2023-10-23 12:24:28.879 [info] > /bin/python3 -I ~/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/interpreterInfo.py
+2023-10-23 12:24:29.015 [info] Python interpreter path: /bin/python3
+2023-10-23 12:24:30.874 [info] Starting Pylance language server.
+2023-10-23 12:26:57.596 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#69_binary_search.py
+2023-10-23 12:28:12.414 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#69_binary_search.py
+2023-10-23 12:28:14.529 [info] Send text to terminal: /bin/python3 "/home/shri123/learning/quant_apt/Telusko _Python_course/#69_binary_search.py"

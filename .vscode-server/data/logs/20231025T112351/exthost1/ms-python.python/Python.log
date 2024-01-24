@@ -1,0 +1,27 @@
+2023-10-25 11:24:03.017 [info] Experiment 'pythonaacf' is active
+2023-10-25 11:24:03.017 [info] Experiment 'pythonPromptNewFormatterExt' is active
+2023-10-25 11:24:03.017 [info] Experiment 'pythonPromptNewToolsExt' is active
+2023-10-25 11:24:03.017 [info] Experiment 'pythonTestAdapter' is active
+2023-10-25 11:24:03.017 [info] Test server listening.
+2023-10-25 11:24:03.164 [info] > conda info --json
+2023-10-25 11:24:03.260 [info] > /bin/python3 -I ~/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/interpreterInfo.py
+2023-10-25 11:24:03.357 [info] Python interpreter path: /bin/python3
+2023-10-25 11:24:04.808 [info] Starting Pylance language server.
+2023-10-25 11:24:20.511 [info] Send text to terminal: /bin/python3 "/home/shri123/learning/quant_apt/Telusko _Python_course/#67_Liner_search.py"
+2023-10-25 11:24:29.612 [info] Send text to terminal: /bin/python3 "/home/shri123/learning/quant_apt/Telusko _Python_course/#69_binary_search.py"
+2023-10-25 11:30:46.238 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#70_Bubble_sort.py
+2023-10-25 11:30:47.502 [info] Send text to terminal: /bin/python3 "/home/shri123/learning/quant_apt/Telusko _Python_course/#70_Bubble_sort.py"
+2023-10-25 11:31:04.969 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#70_Bubble_sort.py
+2023-10-25 11:31:05.953 [info] Send text to terminal: /bin/python3 "/home/shri123/learning/quant_apt/Telusko _Python_course/#70_Bubble_sort.py"
+2023-10-25 11:31:40.465 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#70_Bubble_sort.py
+2023-10-25 11:31:43.003 [info] Send text to terminal: /bin/python3 "/home/shri123/learning/quant_apt/Telusko _Python_course/#70_Bubble_sort.py"
+2023-10-25 11:43:18.839 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#71_Selction_sort.py
+2023-10-25 11:43:20.427 [info] Send text to terminal: /bin/python3 "/home/shri123/learning/quant_apt/Telusko _Python_course/#71_Selction_sort.py"
+2023-10-25 11:44:07.617 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#71_Selction_sort.py
+2023-10-25 11:45:10.492 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#71_Selction_sort.py
+2023-10-25 11:45:34.649 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#71_Selction_sort.py
+2023-10-25 11:45:50.237 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#71_Selction_sort.py
+2023-10-25 11:46:23.413 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#70_Bubble_sort.py
+2023-10-25 11:46:26.260 [info] Send text to terminal: /bin/python3 "/home/shri123/learning/quant_apt/Telusko _Python_course/#70_Bubble_sort.py"
+2023-10-25 11:46:53.104 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#71_Selction_sort.py
+2023-10-25 11:46:57.304 [info] Discover tests for workspace name: learning - uri: /home/shri123/learning/quant_apt/Telusko _Python_course/#70_Bubble_sort.py

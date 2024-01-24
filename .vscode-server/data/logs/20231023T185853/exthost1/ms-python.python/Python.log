@@ -1,0 +1,9 @@
+2023-10-23 18:58:59.320 [info] Experiment 'pythonaacf' is active
+2023-10-23 18:58:59.320 [info] Experiment 'pythonPromptNewFormatterExt' is active
+2023-10-23 18:58:59.320 [info] Experiment 'pythonPromptNewToolsExt' is active
+2023-10-23 18:58:59.320 [info] Experiment 'pythonTestAdapter' is active
+2023-10-23 18:58:59.320 [info] Test server listening.
+2023-10-23 18:58:59.725 [info] > conda info --json
+2023-10-23 18:58:59.985 [info] > /bin/python3 -I ~/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2023.18.0/pythonFiles/interpreterInfo.py
+2023-10-23 18:59:00.114 [info] Python interpreter path: /bin/python3
+2023-10-23 18:59:01.792 [info] Starting Pylance language server.

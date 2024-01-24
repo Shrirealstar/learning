@@ -1,0 +1,26 @@
+2023-10-25 14:28:04.931 [info] 
+
+
+
+
+2023-10-25 14:28:04.986 [info] Extension host agent started.
+2023-10-25 14:28:05.123 [info] [127.0.0.1][a4eb3fce][ManagementConnection] New connection established.
+2023-10-25 14:28:05.747 [info] [127.0.0.1][22b67a49][ExtensionHostConnection] New connection established.
+2023-10-25 14:28:05.787 [info] [127.0.0.1][22b67a49][ExtensionHostConnection] <20493> Launched Extension Host Process.
+2023-10-25 14:28:56.194 [info] [127.0.0.1][a4eb3fce][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-10-25 14:28:56.249 [info] [127.0.0.1][22b67a49][ExtensionHostConnection] <20493> Extension Host Process exited with code: 0, signal: null.
+2023-10-25 14:28:57.921 [info] [127.0.0.1][2492b3ad][ManagementConnection] New connection established.
+2023-10-25 14:28:59.185 [info] [127.0.0.1][14d7b6d3][ExtensionHostConnection] New connection established.
+2023-10-25 14:28:59.340 [info] [127.0.0.1][14d7b6d3][ExtensionHostConnection] <20685> Launched Extension Host Process.
+2023-10-25 14:29:06.819 [info] [127.0.0.1][2492b3ad][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-10-25 14:29:06.866 [info] [127.0.0.1][14d7b6d3][ExtensionHostConnection] <20685> Extension Host Process exited with code: 0, signal: null.
+2023-10-25 14:29:08.662 [info] [127.0.0.1][8e1b7cad][ManagementConnection] New connection established.
+2023-10-25 14:29:09.669 [info] [127.0.0.1][ecbbd19a][ExtensionHostConnection] New connection established.
+2023-10-25 14:29:09.720 [info] [127.0.0.1][ecbbd19a][ExtensionHostConnection] <20742> Launched Extension Host Process.
+2023-10-25 14:29:41.059 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2023-10-25 14:31:28.366 [info] [127.0.0.1][8e1b7cad][ManagementConnection] The client has reconnected.
+2023-10-25 14:31:28.374 [info] [127.0.0.1][ecbbd19a][ExtensionHostConnection] The client has reconnected.
+2023-10-25 14:31:38.540 [info] [127.0.0.1][ecbbd19a][ExtensionHostConnection] The client has reconnected.
+2023-10-25 14:31:38.544 [info] [127.0.0.1][8e1b7cad][ManagementConnection] The client has reconnected.
+2023-10-25 15:24:22.023 [info] [127.0.0.1][8e1b7cad][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-10-25 15:24:22.314 [info] [127.0.0.1][ecbbd19a][ExtensionHostConnection] <20742> Extension Host Process exited with code: 0, signal: null.
