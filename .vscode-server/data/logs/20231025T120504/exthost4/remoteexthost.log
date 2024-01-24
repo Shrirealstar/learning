@@ -1,9 +1,0 @@
-2023-10-25 13:15:36.577 [info] Extension host with pid 11543 started
-2023-10-25 13:15:36.611 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
-2023-10-25 13:15:36.635 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
-2023-10-25 13:15:36.635 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
-2023-10-25 13:15:37.024 [info] Eager extensions activated
-2023-10-25 13:15:37.024 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
-2023-10-25 13:15:37.025 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
-2023-10-25 13:17:06.000 [info] Extension host terminating: received terminate message from renderer
-2023-10-25 13:17:06.022 [info] Extension host with pid 11543 exiting with code 0

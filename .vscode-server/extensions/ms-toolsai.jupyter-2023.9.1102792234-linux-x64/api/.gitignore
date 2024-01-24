@@ -1,9 +1,0 @@
-.DS_Store
-out
-**/node_modules
-bin/**
-logs/**
-obj/**
-temp/
-tmp/
-*.d.ts
