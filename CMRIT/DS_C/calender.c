@@ -25,7 +25,6 @@ int main() {
 
 //Create
 void create(struct day *calender){
-    char dayNames[7][10] = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
     for(int i=0;i<7;i++){
         calender[i].name = malloc(20*sizeof(char));
         calender[i].display = malloc(20*sizeof(char));
