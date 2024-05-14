@@ -1,0 +1,113 @@
+Input a string : str 1 = input()
+Input integer : n = int(input())
+Input a float : float (input())
+
+1. Input multiple string separated
+    Ex: Rohith Rahul Virat by space
+    str 1 = input 
+    list = str1.split()
+
+2. Input multiple string separated by comma
+    Ex : Rahul, Rohith, Virat
+    str 1 = input()
+    list = str1.split(',')
+
+3. Input multiple string separated by one bellow another 
+    Ex : Rahul
+         Rohith
+         Virat
+    n = int(input()) # no. of elements
+    list 1 = [] # start with empty list 
+    for i in range(n); list 1. append(input())
+
+input multiple integers integers seperated by space
+    Ex : 2 4 6 8
+
+
+29/04/24
+
+7th : Input a binary number if threee are odd numbers of 1's then priority must be 1. If threee are even numbers of 1's then the parity must be 0
+    a. input sequencial of numbers
+    b. count numbers of 1s'
+    c. if count id % 2 ==0 :
+        priority set to 0
+       else :
+        set prarity to 1
+    d. concatinate input and parity 
+    e. print output
+
+8th : Write a python code to check whether the given input is the spy number or not.
+    spy Number = Product of all the digits should be equal to summ of all digits
+        ex : 1412
+        product = 1 * 4 * 1 * 2 = 8
+        sum = 1 + 4 + 1 + 2 = 8
+
+    Algo :
+        a. Enter a int input 
+        b. convert the input to str
+        c. Assign p = 1, s = 0
+        d. for i in input 
+            p = p * int(i)
+            s = s s + int(i)
+        e. if p == sum:
+            print("Spy")
+            else :
+            print("Not a spy")
+
+9th : Develop a python program to check whether a given number is plaindrome or not. Print true if number is palindrome else false
+    ex : 25352
+
+    1. Enter a number in int form
+    2. Count int to string
+    3. Read string in reverse order
+    4. if n1 == n2
+    print true
+    else false
+
+10th : write a pthron programm to find fuctorial of given number
+    1. input a number
+    2. Inialize factorail to 1
+    3. Use for loop with range n to 1, not upto 0
+    4. Use factorial formula
+    5. print factorial
+
+11th : Wrute a python program to accept a number and display whether it is a perfect square or not
+    Input : 25
+    o/p : Pefect Square 
+
+12th : write a python code to find the summ of squares of forst 'n' natural numbers
+
+13th : Write a python programm to read the name and year of birth of a person, Disply whether a person is a senior citizen or not
+
+14th : develop a python to convert binary numbers to decimal
+
+
+16 : Write a pyhton program to calculate binomial co-efficient 
+    npr = n!/(n-r)!
+    ncr = npr/r!
+
+    1. import math
+    2. enter value of n, r
+    npr, ncr, -> Apply formula print npr and ncr
+
+17 : write a python program to simulate "Guess the number" game
+    1. import math
+    2. generate random numbers form 1 to 20 -> seat numbers
+    3. use for with range function  -> Guess allowed 6
+        input guess
+        if guess is less than the key -> print guess is low
+        if guess is greater than the key -> printguess is high
+            else break # guess is correct
+        if teh guess == key
+            print Good
+        else 
+            print bad
+
+
+18 : Write a pyhton fuctionc "is_leap()" that taked a year as singke input and retuen True if it is leap year and return False otherwise
+
+19 : You have given a string. Write a python program to print only the anagrams present in the string   
+    anagram -> words concatining same letters
+    ex : listen and silence
+
+

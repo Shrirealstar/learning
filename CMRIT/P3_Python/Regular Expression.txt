@@ -1,0 +1,28 @@
+Special charrectrs | Matched
+    .               Any single charrecter except new linw
+    *               Zero or more repetitatice of the preceeding charrecter or pattern
+    +               one or more repetations of the preceeding charrecter
+    ?               Zero or more repetation of the preceeding charrecter or pattern
+    [abc]           Any single charrecter in the set {a, b, c}
+    \d              Any digit for (0-9)
+    \s              Any whitespace charrecter
+
+import re
+print(re.findall(r'[Aa]bcd''Abcd with Abcd'))
+
+import re
+print('range', re.search(r'[a-z A-Z]', 'x'))
+
+
+* Valid USN : You have given a list string. Write a python code to output only valid USN's from the given list. If there are no valis USN's then print 'NIL'
+    ex : 1CR22AI001
+
+    Sol :
+    A vvalid USN contalins exctly charrecter
+
+    - Forst charrecter is digit
+    - next 2 charrecter are alphabetical charrecter
+    - Next 2 digits
+    - then 2 alphabetical charrecter
+    - then 3 digits
+    

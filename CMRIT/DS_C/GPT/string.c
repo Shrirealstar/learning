@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
-void replacePattern(char *mainStr, const char *pattern, const char *replace) {
-    int mainLen = strlen(mainStr);
+void replacePattern(char *mainsting, const char *pattern, const char *replace) {
+    int mainLen = strlen(mainsting);
     int patLen = strlen(pattern);
     int repLen = strlen(replace);
 
@@ -17,17 +17,17 @@ void replacePattern(char *mainStr, const char *pattern, const char *replace) {
 }
 
 int main() {
-    char mainStr[100], pattern[100], replace[100];
+    char mainsting[100], pattern[100], replace[100];
     printf("Enter main string: ");
-    scanf(" %[^\n]", mainStr);
+    scanf(" %[^\n]", mainsting);
     printf("Enter pattern to replace: ");
     scanf(" %[^\n]", pattern);
     printf("Enter replacement string: ");
     scanf(" %[^\n]", replace);
 
-    replacePattern(mainStr, pattern, replace);
+    replacePattern(mainsting, pattern, replace);
 
-    printf("Resulting string after pattern replacement: %s\n", mainStr);
+    printf("Resulting string after pattern replacement: %s\n", mainsting);
 
     return 0;
 }
