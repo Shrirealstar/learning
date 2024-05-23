@@ -25,4 +25,16 @@ print('range', re.search(r'[a-z A-Z]', 'x'))
     - Next 2 digits
     - then 2 alphabetical charrecter
     - then 3 digits
-    
+
+Valid gmail id
+    Given a sentence find out the a valid gmail id from the sentence, by using the pyhton code
+
+valid date
+    write a python code to take dates a string input and convert dates of yyyy-dd-mm to dd-mm-yyyy format.
+    if it is in the dd-mm-yyyy format don't change it
+
+1. Valid_URL
+Your a given a list of stringd. Write a pyhton code to print only the valid urls from the given list. If there is no URL valid print "Nil"
+
+2. Upper and Lower case
+You are given a string. Write a pyhton code to print no of upper and lower case letter
