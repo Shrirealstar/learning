@@ -6,5 +6,6 @@ for i in n:
         Upper_case += 1
     elif i.islower():
         Lower_case += 1
-print("No. of Upper case : ", Upper_case)
-print("No. of Lower case : ", Lower_case)
+print(f"{Upper_case},{Lower_case}")
+# print("No. of Upper case : ", Upper_case)
+# print("No. of Lower case : ", Lower_case)

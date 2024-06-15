@@ -1,29 +1,22 @@
-// Define a car object
 const car = {
-    make: 'Toyota',
-    model: 'Camry',
-    year: 2020,
-    color: 'Red'
+	make : "Toyota",
+	model : "Inova",
+	year : 2000,
+	color : "Black"
 };
 
-// Printing car object properties
-console.log('Car Object Properties:');
-for (let prop in car) {
-    console.log(prop + ': ' + car[prop]);
-}
+console.log("Original properties of car : ");
+for(let key in car){
+	console.log(key + ':' + car[key]);
+};
 
-// Deleting the second property
-const properties = Object.keys(car);
-if (properties.length >= 2) {
-    delete car[properties[1]];
-    console.log('\nAfter deleting the second property:');
-    for (let prop in car) {
-        console.log(prop + ': ' + car[prop]);
-    }
-} else {
-    console.log('There are less than 2 properties in the car object.');
-}
+delete car.model;
 
-// Getting the length of the object
+console.log("After deletion :");
+for(let key in car){
+	console.log(key + ':' + car[key]);
+};
+
+
 const length = Object.keys(car).length;
-console.log('\nLength of the car object:', length);
+console.log("Length of the object : ", length);

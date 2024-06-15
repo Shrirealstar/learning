@@ -1,8 +1,6 @@
-from flask import Flask, render_template, request, redirect
+from flask import Flask, render_template, Response
 import dlib
 import cv2
-import numpy as np
-import base64
 
 app = Flask(__name__)
 
@@ -10,27 +8,16 @@ app = Flask(__name__)
 detector = dlib.get_frontal_face_detector()
 predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
 
-# Route for rendering the index.html template
-@app.route("/", methods=["GET", "POST"])
-def index():
-    if request.method == "POST":
-        if "file" not in request.files:
-            return redirect(request.url)
-        file = request.files["file"]
-        if file.filename == "":
-            return redirect(request.url)
-        if file:
-            # Read the image file
-            image_stream = file.read()
-            nparr = np.frombuffer(image_stream, np.uint8)
-            image = cv2.imdecode(nparr, cv2.IMREAD_COLOR)
-
+# Function to capture video frames from the webcam
+def gen_frames():
+    cap = cv2.VideoCapture(0)
+    while True:
+        success, frame = cap.read()
+        if not success:
+            break
+        else:
             # Convert image to grayscale
-            gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-
-            # Convert the original image to base64 for displaying
-            _, img_encoded = cv2.imencode('.jpg', image)
-            img_base64 = base64.b64encode(img_encoded).decode('utf-8')
+            gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
             # Detect faces in the image
             faces = detector(gray)
@@ -41,18 +28,28 @@ def index():
                 for n in range(0, 68):
                     x = landmarks.part(n).x
                     y = landmarks.part(n).y
-                    cv2.circle(image, (x, y), 1, (0, 0, 255), 2)  # Red color for landmarks
+                    cv2.circle(frame, (x, y), 1, (0, 0, 255), 2)  # Red color for landmarks
                 # Draw a rectangle around the face
                 x, y, w, h = face.left(), face.top(), face.width(), face.height()
-                cv2.rectangle(image, (x, y), (x + w, y + h), (0, 255, 0), 2)  # Green color for face box
+                cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 2)  # Green color for face box
 
-            # Convert the image with landmarks to base64 for displaying
-            _, img_landmarks_encoded = cv2.imencode('.jpg', image)
-            img_landmarks_base64 = base64.b64encode(img_landmarks_encoded).decode('utf-8')
+            # Encode the frame in JPEG format
+            ret, buffer = cv2.imencode('.jpg', frame)
+            frame = buffer.tobytes()
 
-            return render_template("index.html", img_base64=img_base64, img_landmarks_base64=img_landmarks_base64)
+            # Yield the frame to be displayed in the browser
+            yield (b'--frame\r\n'
+                   b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n')
 
-    return render_template("index.html")
+# Route for streaming video
+@app.route('/video_feed')
+def video_feed():
+    return Response(gen_frames(), mimetype='multipart/x-mixed-replace; boundary=frame')
+
+# Route for rendering the index.html template
+@app.route('/')
+def index():
+    return render_template('index.html')
 
 if __name__ == "__main__":
     app.run(debug=True)

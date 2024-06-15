@@ -1,4 +1,4 @@
-n = int(input("Enter a int to check whhether a spy num or not : "))
+n = int(input("Enter a number to check the spy number : "))
 sum = 0
 product = 1
 
@@ -8,5 +8,5 @@ for i in str(n):
 
 if sum == product:
     print("Spy Number")
-else :
+else:
     print("Not a Spy Number")

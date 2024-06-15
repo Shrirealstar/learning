@@ -7,7 +7,7 @@ if x % 4 == 0:
             is_leap = False
     else:
         is_leap = True
-else:s
+else:
     is_leap = False
 print(is_leap)
 
