@@ -1,0 +1,11 @@
+<!-- index.html -->
+<html>
+<body>
+    <h1>Upload an Image</h1>
+    <form method="post" enctype="multipart/form-data" action="{% url 'process_image' %}">
+        {% csrf_token %}
+        <input type="file" name="image">
+        <button type="submit">Upload</button>
+    </form>
+</body>
+</html>

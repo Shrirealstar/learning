@@ -1,0 +1,31 @@
+<!-- chat.html -->
+<html>
+<body>
+    <h1>Chat with the Bot</h1>
+    <form method="post" id="chat-form">
+        {% csrf_token %}
+        <input type="text" name="message" id="user-message" placeholder="Type your message">
+        <button type="submit">Send</button>
+    </form>
+
+    <div id="chat-response"></div>
+
+    <script>
+        document.getElementById('chat-form').onsubmit = function(event) {
+            event.preventDefault();
+            var message = document.getElementById('user-message').value;
+            fetch("{% url 'chat_response' %}", {
+                method: 'POST',
+                headers: {
+                    'X-CSRFToken': '{{ csrf_token }}',
+                },
+                body: new FormData(document.getElementById('chat-form'))
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('chat-response').innerHTML = data.response;
+            });
+        };
+    </script>
+</body>
+</html>

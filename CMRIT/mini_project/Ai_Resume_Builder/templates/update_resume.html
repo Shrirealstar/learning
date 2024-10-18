@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            width: 50%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        label {
+            font-weight: bold;
+        }
+        input[type="file"], input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        .feedback {
+            margin-top: 20px;
+            color: #28a745;
+            white-space: pre-wrap;  /* Preserve formatting */
+        }
+        .error {
+            color: #ff0000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Update Your Resume</h1>
+        <form action="/update" method="post" enctype="multipart/form-data">
+            <label for="resume">Upload your existing resume:</label>
+            <input type="file" id="resume" name="resume" accept=".pdf, .doc, .docx" required>
+
+            <input type="submit" value="Update Resume">
+        </form>
+
+        {% if uploaded_filename %}
+            <div class="feedback">
+                <p>Uploaded File: {{ uploaded_filename }}</p>
+                <p>Feedback:</p>
+                <p>{{ feedback|safe }}</p>  <!-- Use safe filter to render HTML -->
+            </div>
+        {% elif feedback is not none %}
+            <div class="error">
+                <p>{{ feedback }}</p>
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>

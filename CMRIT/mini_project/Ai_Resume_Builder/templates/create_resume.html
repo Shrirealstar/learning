@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            display: flex;
+        }
+        .form-container {
+            width: 40%;
+            margin-right: 20px;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .resume-container {
+            width: 60%;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        label {
+            font-weight: bold;
+        }
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"], .new-resume, .download {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px 0;
+        }
+        input[type="submit"]:hover, .new-resume:hover, .download:hover {
+            background-color: #0056b3;
+        }
+        .resume {
+            white-space: pre-wrap;  /* Preserve formatting */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h1>Create Your Resume</h1>
+            <form action="/create" method="post" enctype="multipart/form-data">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="profile">Profile:</label>
+                <textarea id="profile" name="profile" rows="4" required></textarea>
+
+                <label for="education">Education:</label>
+                <textarea id="education" name="education" rows="4"></textarea>
+
+                <label for="skills">Skills:</label>
+                <textarea id="skills" name="skills" rows="4"></textarea>
+
+                <label for="work_experience">Work Experience:</label>
+                <textarea id="work_experience" name="work_experience" rows="4"></textarea>
+
+                <label for="contact">Contact:</label>
+                <textarea id="contact" name="contact" rows="4"></textarea>
+
+                <label for="projects">Projects:</label>
+                <textarea id="projects" name="projects" rows="4"></textarea>
+
+                <label for="hobbies">Hobbies:</label>
+                <textarea id="hobbies" name="hobbies" rows="4"></textarea>
+
+                <input type="submit" value="Create Resume">
+            </form>
+        </div>
+
+        <div class="resume-container">
+            <h2>Organized Resume</h2>
+            {% if organized_resume %}
+                <div class="resume">
+                    {{ organized_resume }}
+                </div>
+                <form action="/download" method="post">
+                    <input type="hidden" name="name" value="{{ resume_data['Name'] }}">
+                    <input type="hidden" name="profile" value="{{ resume_data['Profile'] }}">
+                    <input type="hidden" name="education" value="{{ resume_data['Education'] }}">
+                    <input type="hidden" name="skills" value="{{ resume_data['Skills'] }}">
+                    <input type="hidden" name="work_experience" value="{{ resume_data['Work Experience'] }}">
+                    <input type="hidden" name="contact" value="{{ resume_data['Contact'] }}">
+                    <input type="hidden" name="projects" value="{{ resume_data['Projects'] }}">
+                    <input type="hidden" name="hobbies" value="{{ resume_data['Hobbies'] }}">
+                    <button class="download">Download</button>
+                </form>
+            {% else %}
+                <p>Your organized resume will be displayed here after you submit the form.</p>
+            {% endif %}
+            <button class="new-resume" onclick="window.location.href='/create';">New Resume</button>
+        </div>
+    </div>
+</body>
+</html>

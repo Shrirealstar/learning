@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Image Recognition Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Image Recognition Chatbot</h1>
+        <form method="POST" enctype="multipart/form-data">
+            <label for="image">Upload an image:</label>
+            <input type="file" id="image" name="image" required>
+            <button type="submit">Upload</button>
+        </form>
+
+        {% if image_path %}
+        <div class="image-section">
+            <h2>Uploaded Image:</h2>
+            <img src="{{ url_for('static', filename='uploads/' + image_path.split('/')[-1]) }}" alt="Uploaded Image" width="400">
+        </div>
+
+        <div class="summary-section">
+            <h2>AI Summary:</h2>
+            <p>{{ summary }}</p>
+        </div>
+
+        <div class="question-section">
+            <h2>Ask a question about the image:</h2>
+            <form method="POST">
+                <input type="text" name="question" placeholder="Ask your question...">
+                <button type="submit">Ask</button>
+            </form>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>

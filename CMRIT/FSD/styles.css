@@ -1,0 +1,14 @@
+.one h1
+{
+    color: blue;
+}
+
+.two h1
+{
+    color: rgb(255, 0, 0);
+}
+
+.three h1
+{
+    color: azure;
+}

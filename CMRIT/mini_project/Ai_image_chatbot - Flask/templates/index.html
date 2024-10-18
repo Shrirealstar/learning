@@ -1,0 +1,35 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>AI Image Recognition Chatbot</title>
+</head>
+<body>
+    <div class="container">
+        <h1>AI Image Recognition Chatbot</h1>
+        <form method="POST" enctype="multipart/form-data">
+            <label for="image">Upload an image:</label>
+            <input type="file" name="image" id="image" required>
+            <button type="submit">Upload</button>
+        </form>
+
+        {% if image_file %}
+            <h2>Uploaded Image:</h2>
+            <img src="{{ url_for('static', filename='uploads/' + image_file) }}" alt="Uploaded Image">
+            <h2>AI Summary:</h2>
+            <p>{{ summary }}</p>
+        {% endif %}
+
+        <h2>Ask a question about the image:</h2>
+        <input type="text" id="question" placeholder="Ask your question...">
+        <button id="ask">Ask</button>
+    </div>
+
+    <script>
+        // Add functionality for the Ask button if needed
+    </script>
+</body>
+</html>
