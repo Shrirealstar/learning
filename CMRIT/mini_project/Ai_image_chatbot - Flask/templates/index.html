@@ -1,35 +1,120 @@
-<!-- templates/index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-    <title>AI Image Recognition Chatbot</title>
+    <title>Image Recognition Chatbot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 50px auto;
+        }
+        h1 {
+            color: #4a148c;
+        }
+        .chat-box {
+            max-height: 400px;
+            overflow-y: scroll;
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 20px 0;
+            background-color: #f9f9f9;
+        }
+        .message {
+            text-align: left;
+            margin: 10px 0;
+        }
+        .user-message {
+            text-align: right;
+            color: #ffffff;
+            background-color: #4a148c;
+            padding: 10px;
+            border-radius: 10px;
+            display: inline-block;
+            max-width: 80%;
+        }
+        .bot-message {
+            text-align: left;
+            color: #000000;
+            background-color: #e0e0e0;
+            padding: 10px;
+            border-radius: 10px;
+            display: inline-block;
+            max-width: 80%;
+        }
+        .chat-input {
+            display: flex;
+            margin-top: 20px;
+        }
+        input[type="text"] {
+            padding: 10px;
+            width: 80%;
+            margin-right: 10px;
+        }
+        button {
+            background-color: #4a148c;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #7b1fa2;
+        }
+        img {
+            max-width: 100%;
+            margin-top: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
-        <h1>AI Image Recognition Chatbot</h1>
+        <h1>Image Recognition Chatbot</h1>
+
+        <!-- Image Upload Form -->
         <form method="POST" enctype="multipart/form-data">
-            <label for="image">Upload an image:</label>
-            <input type="file" name="image" id="image" required>
-            <button type="submit">Upload</button>
+            <input type="file" name="image" accept="image/*" required>
+            <button type="submit">Upload Image</button>
         </form>
 
-        {% if image_file %}
-            <h2>Uploaded Image:</h2>
-            <img src="{{ url_for('static', filename='uploads/' + image_file) }}" alt="Uploaded Image">
-            <h2>AI Summary:</h2>
-            <p>{{ summary }}</p>
+        <!-- Display uploaded image and summary -->
+        {% if image_path %}
+        <img src="{{ image_path }}" alt="Uploaded Image">
+        <h2>Image Summary:</h2>
+        <p>{{ summary }}</p>
         {% endif %}
 
-        <h2>Ask a question about the image:</h2>
-        <input type="text" id="question" placeholder="Ask your question...">
-        <button id="ask">Ask</button>
-    </div>
+        <!-- Chat Interface -->
+        {% if chat_history %}
+        <div class="chat-box">
+            {% for message in chat_history %}
+                <div class="message {{ 'user-message' if message['from'] == 'user' else 'bot-message' }}">
+                    {{ message['text'] }}
+                </div>
+            {% endfor %}
+        </div>
 
-    <script>
-        // Add functionality for the Ask button if needed
-    </script>
+        <!-- Input Form for Asking Questions -->
+        <div class="chat-input">
+            <form method="POST" action="/ask_question">
+                <input type="text" name="question" placeholder="Type your message..." required>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        {% endif %}
+    </div>
 </body>
 </html>

@@ -4,26 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interview Question Generator</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0e0ff;
+            padding: 20px;
+            text-align: center; /* Align everything in center */
+        }
+        h1 {
+            color: #4b0082; /* Dark purple */
+            font-size: 2.5em;
+        }
+        form {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            max-width: 600px;
+            margin: 0 auto; /* Center the form */
+        }
+        label {
+            font-weight: bold;
+            color: #4b0082;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 2px solid #4b0082;
+            border-radius: 8px;
+        }
+        input[type="submit"] {
+            background: #5cb85c;
+            color: white;
+            padding: 15px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1.2em;
+        }
+        input[type="submit"]:hover {
+            background: #4cae4c;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Interview Question Generator</h1>
-        <form method="post" action="/">
-            <label for="topic_title">Topic Title:</label>
-            <input type="text" id="topic_title" name="topic_title" required>
-            <label for="queries_num">Number of Questions:</label>
-            <input type="number" id="queries_num" name="queries_num" required min="1">
-            <button type="submit" class="submit-btn">Generate Questions</button>
-        </form>
-    </div>
-    <div class="loading-spinner" id="loadingSpinner"></div>
-    <script>
-        document.querySelectorAll('form').forEach(form => {
-            form.addEventListener('submit', function() {
-                document.getElementById('loadingSpinner').style.display = 'block';
-            });
-        });
-    </script>
+    <h1>Interview Question Generator</h1>
+    <form method="POST">
+        <label for="topic_title">Enter the Topic:</label>
+        <input type="text" id="topic_title" name="topic_title" required>
+        <input type="submit" value="Generate Question">
+    </form>
 </body>
 </html>
