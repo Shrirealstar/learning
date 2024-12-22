@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Employee</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #6D87D5, #84B9D4);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .form-container {
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 600px;
+        }
+        .form-container h1 {
+            margin-bottom: 30px;
+            text-align: center;
+            font-size: 2rem;
+            color: #333;
+        }
+        .form-container label {
+            font-weight: 600;
+            font-size: 1rem;
+            color: #555;
+            margin-bottom: 8px;
+            display: inline-block;
+        }
+        .form-container input, 
+        .form-container select, 
+        .form-container button {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            font-size: 1rem;
+            color: #333;
+        }
+        .form-container input:focus, 
+        .form-container select:focus, 
+        .form-container button:focus {
+            outline: none;
+            border-color: #4CAF50;
+        }
+        .form-container button {
+            background-color: #4CAF50;
+            color: white;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .form-container button:hover {
+            background-color: #45a049;
+        }
+        .form-container input[type="radio"], 
+        .form-container input[type="checkbox"] {
+            width: auto;
+            margin-right: 5px;
+        }
+        .form-container .gender-container, 
+        .form-container .courses-container {
+            display: flex;
+            gap: 20px;
+        }
+        .back-link {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            color: #555;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+        .back-link:hover {
+            color: #4CAF50;
+        }
+        @media (max-width: 600px) {
+            .form-container {
+                padding: 20px;
+            }
+            .form-container h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Add Employee</h1>
+        <form action="/add_employee" method="POST" enctype="multipart/form-data">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mobile">Mobile No:</label>
+            <input type="text" id="mobile" name="mobile" required>
+            
+            <label for="designation">Designation:</label>
+            <select id="designation" name="designation" required>
+                <option value="HR">HR</option>
+                <option value="Manager">Manager</option>
+                <option value="Sales">Sales</option>
+                <option value="Marketing">Marketing</option>
+                <option value="Developer">Developer</option>
+            </select>
+            
+            <label>Gender:</label>
+            <div class="gender-container">
+                <label for="male"><input type="radio" id="male" name="gender" value="Male" required> Male</label>
+                <label for="female"><input type="radio" id="female" name="gender" value="Female" required> Female</label>
+            </div>
+            
+            <label>Courses:</label>
+            <div class="courses-container">
+                <label for="mca"><input type="checkbox" id="mca" name="course" value="MCA"> MCA</label>
+                <label for="bca"><input type="checkbox" id="bca" name="course" value="BCA"> BCA</label>
+                <label for="bsc"><input type="checkbox" id="bsc" name="course" value="BSc"> BSc</label>
+                <label for="eng"><input type="checkbox" id="eng" name="course" value="Engineering"> Engineering</label>
+                <label for="diploma"><input type="checkbox" id="diploma" name="course" value="Diploma"> Diploma</label>
+            </div>
+            
+            <label for="image">Image:</label>
+            <input type="file" id="image" name="image" accept=".jpg, .png" required>
+            
+            <button type="submit">Submit</button>
+        </form>
+        <a class="back-link" href="/dashboard">Back to Dashboard</a>
+    </div>
+</body>
+</html>

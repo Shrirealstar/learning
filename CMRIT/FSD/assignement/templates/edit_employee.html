@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Employee</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #cfd9df, #e2ebf0);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .form-container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            width: 500px;
+        }
+        .form-container h1 {
+            margin-bottom: 20px;
+            text-align: center;
+            color: #333;
+        }
+        .form-container label {
+            font-weight: bold;
+            display: block;
+            margin: 10px 0 5px;
+        }
+        .form-container input,
+        .form-container select,
+        .form-container button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-container button {
+            background: #4CAF50;
+            color: white;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .form-container button:hover {
+            background: #45a049;
+        }
+        .back-link {
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Edit Employee</h1>
+        <form action="/edit_employee/{{ employee.id }}" method="POST" enctype="multipart/form-data">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" value="{{ employee.name }}" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" value="{{ employee.email }}" required>
+            
+            <label for="mobile">Mobile No:</label>
+            <input type="text" id="mobile" name="mobile" value="{{ employee.mobile }}" required>
+            
+            <label for="designation">Designation:</label>
+            <select id="designation" name="designation" required>
+                <option value="HR" {% if employee.designation == 'HR' %}selected{% endif %}>HR</option>
+                <option value="Manager" {% if employee.designation == 'Manager' %}selected{% endif %}>Manager</option>
+                <option value="Sales" {% if employee.designation == 'Sales' %}selected{% endif %}>Sales</option>
+                <option value="Marketing" {% if employee.designation == 'Marketing' %}selected{% endif %}>Marketing</option>
+                <option value="Developer" {% if employee.designation == 'Developer' %}selected{% endif %}>Developer</option>
+            </select>
+            
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="Male" {% if employee.gender == 'Male' %}checked{% endif %}>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female" {% if employee.gender == 'Female' %}checked{% endif %}>
+            <label for="female">Female</label>
+            
+            <label>Courses:</label>
+            <input type="checkbox" id="mca" name="course" value="MCA" {% if 'MCA' in employee.courses %}checked{% endif %}>
+            <label for="mca">MCA</label>
+            <input type="checkbox" id="bca" name="course" value="BCA" {% if 'BCA' in employee.courses %}checked{% endif %}>
+            <label for="bca">BCA</label>
+            <input type="checkbox" id="bsc" name="course" value="BSc" {% if 'BSc' in employee.courses %}checked{% endif %}>
+            <label for="bsc">BSc</label>
+            <input type="checkbox" id="eng" name="course" value="Engineering" {% if 'Engineering' in employee.courses %}checked{% endif %}>
+            <label for="eng">Engineering</label>
+            <input type="checkbox" id="diploma" name="course" value="Diploma" {% if 'Diploma' in employee.courses %}checked{% endif %}>
+            <label for="diploma">Diploma</label>
+            
+            <label for="image">Update Image:</label>
+            <input type="file" id="image" name="image" accept=".jpg, .png">
+            
+            <button type="submit">Update</button>
+        </form>
+        <a class="back-link" href="/employee_list">Back to Employee List</a>
+    </div>
